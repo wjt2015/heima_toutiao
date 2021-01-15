@@ -29,7 +29,7 @@ import org.springframework.validation.Validator;
 import org.springframework.web.method.support.HandlerMethodArgumentResolver;
 import org.springframework.web.method.support.HandlerMethodReturnValueHandler;
 import org.springframework.web.servlet.HandlerExceptionResolver;
-import wjt.config.MyWebMvcConfigurer;
+import toutiao.config.MyWebMvcConfigurer;
 
 import java.util.List;
 
@@ -42,8 +42,9 @@ import java.util.List;
  * @author Rossen Stoyanchev
  * @since 3.1
  */
-@Configuration
+
 @Import(value = {MyWebMvcConfigurer.class})
+@Configuration
 public class MyDelegatingWebMvcConfiguration extends MyWebMvcConfigurationSupport {
 
     private static final Logger log = LoggerFactory.getLogger(MyDelegatingWebMvcConfiguration.class);
