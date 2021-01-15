@@ -13,4 +13,9 @@ public class ApiResult {
 
     public Object data;
 
+    public ApiResult() {
+        errCode = 0;
+        errMsg = "ok;no data";
+        data = null;
+    }
 }
