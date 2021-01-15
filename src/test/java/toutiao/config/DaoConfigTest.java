@@ -25,7 +25,7 @@ public class DaoConfigTest {
     @Test
     public void insert() {
         long ts = System.currentTimeMillis() - 1000000L;
-        ArticleHomeEntity articleHomeEntity = new ArticleHomeEntity(null, null, null, "wjt", "wjt", 1, 1, 1, new Date(ts + 10000),
+        ArticleHomeEntity articleHomeEntity = new ArticleHomeEntity(null, null, null, "wjt", "wjt", 1, 1, 1,20, new Date(ts + 10000),
                 new Date(ts), "娱乐");
         int i = articleHomeMapper.insertSelective(articleHomeEntity);
         log.info("insert!i={};id={};", i, articleHomeEntity.id);

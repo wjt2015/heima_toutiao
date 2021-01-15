@@ -1,16 +1,13 @@
 package toutiao.model;
 
 import lombok.AllArgsConstructor;
-import lombok.Data;
 import lombok.NoArgsConstructor;
 import lombok.ToString;
-
-import java.util.Date;
 
 @AllArgsConstructor
 @NoArgsConstructor
 @ToString
-public class AriticleRequest {
+public class ArticleRequest {
 
     public Integer provinceId;
 

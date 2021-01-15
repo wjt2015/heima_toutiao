@@ -4,10 +4,9 @@ import lombok.extern.slf4j.Slf4j;
 import org.sonatype.aether.resolution.ArtifactRequest;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 import toutiao.model.ApiResult;
-import toutiao.model.AriticleRequest;
+import toutiao.model.ArticleRequest;
 
 /**
  * 用户进入app,需要加载文章(load);用户上拉(load_more)、下拉(load_new),也会导致加载;
@@ -34,15 +33,15 @@ public class ArticleController {
 
 
     @RequestMapping(value = {"/load.json"})
-    public ApiResult load(@RequestBody AriticleRequest ariticleRequest) {
-        log.info("ariticleRequest={};",ariticleRequest);
+    public ApiResult load(@RequestBody ArticleRequest articleRequest) {
+        log.info("articleRequest={};", articleRequest);
 
         return new ApiResult();
     }
 
 
     @RequestMapping(value = {"/load_more.json"})
-    public ApiResult loadMore(@RequestBody AriticleRequest ariticleRequest) {
+    public ApiResult loadMore(@RequestBody ArticleRequest articleRequest) {
 
         return new ApiResult();
     }

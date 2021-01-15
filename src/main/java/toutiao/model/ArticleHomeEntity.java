@@ -24,11 +24,11 @@ public class ArticleHomeEntity {
 
     public Integer countyId;
 
+    public Integer size;
+
     public Date maxBehotTime;
 
     public Date minBehotTime;
 
     public String tag;
-
-    
 }
