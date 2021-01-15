@@ -76,13 +76,17 @@ mvn mybatis-generator:generate
             <property name="enableSubPackages" value="false"/>
         </javaClientGenerator>
         <!--tables-->
+
 <!--
         <table tableName="article_home" domainObjectName="ArticleHomeEntity" mapperName="ArticleHomeMapper"
                enableCountByExample="false" enableUpdateByExample="false"
                enableDeleteByExample="false" enableSelectByExample="false"
                selectByExampleQueryId="false">
+            &lt;!&ndash;返回主键值&ndash;&gt;
+            <generatedKey column="id" sqlStatement="MySql" identity="true"/>
         </table>
-        -->
+-->
+
 
         <!--        <table tableName="book" domainObjectName="BookEntity" mapperName="BookMapper"
                        enableCountByExample="false" enableUpdateByExample="false"

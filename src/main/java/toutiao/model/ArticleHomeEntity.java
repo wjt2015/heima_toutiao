@@ -4,6 +4,7 @@ import lombok.AllArgsConstructor;
 import lombok.NoArgsConstructor;
 
 import java.util.Date;
+
 @AllArgsConstructor
 @NoArgsConstructor
 public class ArticleHomeEntity {
@@ -29,4 +30,5 @@ public class ArticleHomeEntity {
 
     public String tag;
 
+    
 }

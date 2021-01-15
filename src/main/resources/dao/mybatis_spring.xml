@@ -48,7 +48,7 @@
         <!--注入sqlSessionFactory -->
         <property name="sqlSessionFactoryBeanName" value="sqlSessionFactory"/>
         <!--给出需要扫描Dao接口包 -->
-        <property name="basePackage" value="com.wjt.dao"/>
+        <property name="basePackage" value="toutiao.dao"/>
         <property name="annotationClass" value="org.springframework.stereotype.Repository"/>
     </bean>
 
@@ -63,7 +63,7 @@
     <!-- 面向切面配置 -->
     <aop:config>
         <!-- 定义切入点 -->
-        <aop:pointcut expression="execution(* com.wjt.*.*(..) )" id="pointCut"/>
+        <aop:pointcut expression="execution(* toutiao.*.*(..) )" id="pointCut"/>
         <!-- pointcut和advice的配置器。是将advice注入程序中pointcut位置的代码 -->
         <aop:advisor advice-ref="txAdvice" pointcut-ref="pointCut"/>
     </aop:config>

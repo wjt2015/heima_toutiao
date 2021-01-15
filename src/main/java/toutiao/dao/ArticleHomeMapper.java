@@ -2,7 +2,6 @@ package toutiao.dao;
 
 import org.springframework.stereotype.Repository;
 import toutiao.model.ArticleHomeEntity;
-
 @Repository
 public interface ArticleHomeMapper {
     int deleteByPrimaryKey(Long id);
