@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="heima_toutiao:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>heima_toutiao</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="heima_toutiao.war">
+      <element id="artifact" artifact-name="heima_toutiao:war exploded" />
+    </root>
+  </artifact>
+</component>
