@@ -8,6 +8,8 @@ https://github.com/wjt2015/heima_toutiao
 
 http://localhost:8055/toutiao/home.json
 
+mvn archetype:generate -DgroupId=heima.toutiao  -DartifactId=heima_toutiao -DarchetypeArtifactId=maven-archetype-webapp -DinteractiveMode=false
+
 
 
 
