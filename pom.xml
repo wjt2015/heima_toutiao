@@ -304,6 +304,13 @@
                   </exclusions>-->
     </dependency>
 
+    <!--(https://github.com/dushitaoyuan/fastdfs-client-java)-->
+    <dependency>
+      <groupId>com.taoyuanx</groupId>
+      <artifactId>fastdfs-client-java</artifactId>
+      <version>1.29-RELEASE</version>
+    </dependency>
+
     <!--
             <dependency>
                 <groupId>org.jboss.marshalling</groupId>
