@@ -2,10 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b690adac-8259-42db-9bbd-069b0e9b9cb6" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/artifacts/heima_toutiao_war_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/heima_toutiao_war_exploded.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/fastdfs/fastdfs-client.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/toutiao/dao/ArticleHomeMapperTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/heima_toutiao.iml" beforeDir="false" afterPath="$PROJECT_DIR$/heima_toutiao.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -17,43 +16,101 @@
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
+        <entry file="jar://$MAVEN_REPOSITORY$/com/taoyuanx/fastdfs-client-java/1.29-RELEASE/fastdfs-client-java-1.29-RELEASE-sources.jar!/org/csource/client/FdfsClient.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="458">
-              <caret line="314" column="24" selection-start-line="314" selection-start-column="24" selection-end-line="314" selection-end-column="24" />
+            <state relative-caret-position="189">
+              <caret line="98" column="16" selection-start-line="98" selection-start-column="16" selection-end-line="98" selection-end-column="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/com/taoyuanx/fastdfs-client-java/1.29-RELEASE/fastdfs-client-java-1.29-RELEASE-sources.jar!/org/csource/fastdfs/StorageClient1.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="330">
+              <caret line="154" column="38" lean-forward="true" selection-start-line="154" selection-start-column="38" selection-end-line="154" selection-end-column="38" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/com/taoyuanx/fastdfs-client-java/1.29-RELEASE/fastdfs-client-java-1.29-RELEASE-sources.jar!/org/csource/fastdfs/UploadCallback.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="264">
+              <caret line="19" column="17" selection-start-line="19" selection-start-column="17" selection-end-line="19" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/com/taoyuanx/fastdfs-client-java/1.29-RELEASE/fastdfs-client-java-1.29-RELEASE-sources.jar!/org/csource/utils/FdfsUtil.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="201">
+              <caret line="24" column="25" selection-start-line="24" selection-start-column="25" selection-end-line="24" selection-end-column="25" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/toutiao/dao/ArticleHomeMapper.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="198">
+              <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="jar://$MAVEN_REPOSITORY$/com/taoyuanx/fastdfs-client-java/1.29-RELEASE/fastdfs-client-java-1.29-RELEASE-sources.jar!/org/csource/client/FdfsClient.java">
+        <entry file="file://$PROJECT_DIR$/src/test/java/toutiao/dao/ArticleHomeMapperTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="172">
-              <caret line="116" column="13" lean-forward="true" selection-start-line="116" selection-start-column="13" selection-end-line="116" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/README.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="264">
-                <caret line="12" selection-start-line="12" selection-end-line="12" />
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/toutiao/model/ApiResult.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="296">
-              <caret line="14" selection-start-line="14" selection-end-line="14" />
+            <state relative-caret-position="327">
+              <caret line="33" column="79" lean-forward="true" selection-start-line="33" selection-start-column="79" selection-end-line="33" selection-end-column="79" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_231.jdk/Contents/Home/src.zip!/java/io/BufferedInputStream.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="201">
+              <caret line="181" column="11" selection-start-line="181" selection-start-column="11" selection-end-line="181" selection-end-column="11" />
+              <folding>
+                <element signature="e#5951#5952#0" expanded="true" />
+                <element signature="e#5996#5997#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/com/taoyuanx/fastdfs-client-java/1.29-RELEASE/fastdfs-client-java-1.29-RELEASE-sources.jar!/org/csource/utils/CommonUtil.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="252">
+              <caret line="23" column="38" selection-start-line="23" selection-start-column="38" selection-end-line="23" selection-end-column="38" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/fastdfs/fastdfs-client.properties">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="264">
+              <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/com/taoyuanx/fastdfs-client-java/1.29-RELEASE/fastdfs-client-java-1.29-RELEASE-sources.jar!/org/csource/fastdfs/ClientGlobal.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="332">
+              <caret line="156" column="21" selection-start-line="156" selection-start-column="21" selection-end-line="156" selection-end-column="21" />
             </state>
           </provider>
         </entry>
@@ -115,6 +172,9 @@
         <option value="$PROJECT_DIR$/docs/db.sql" />
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/toutiao/service/FastFDSService.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/fastdfs/fastdfs-client.properties" />
+        <option value="$PROJECT_DIR$/src/test/java/toutiao/dao/ArticleHomeMapperTest.java" />
       </list>
     </option>
   </component>
@@ -189,6 +249,13 @@
             <path>
               <item name="heima_toutiao" type="b2602c69:ProjectViewProjectNode" />
               <item name="heima_toutiao" type="462c0819:PsiDirectoryNode" />
+              <item name="docs" type="462c0819:PsiDirectoryNode" />
+              <item name="logs" type="462c0819:PsiDirectoryNode" />
+              <item name="2021-01-15" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="heima_toutiao" type="b2602c69:ProjectViewProjectNode" />
+              <item name="heima_toutiao" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -211,6 +278,15 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="toutiao" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="heima_toutiao" type="b2602c69:ProjectViewProjectNode" />
+              <item name="heima_toutiao" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="toutiao" type="462c0819:PsiDirectoryNode" />
+              <item name="dao" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="heima_toutiao" type="b2602c69:ProjectViewProjectNode" />
@@ -227,6 +303,14 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="heima_toutiao" type="b2602c69:ProjectViewProjectNode" />
+              <item name="heima_toutiao" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="fastdfs" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="heima_toutiao" type="b2602c69:ProjectViewProjectNode" />
@@ -291,7 +375,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1611074135069" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1611074966486" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -303,19 +387,21 @@
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="toutiao.dao" />
       <recent name="toutiao.controller" />
       <recent name="toutiao.config" />
     </key>
-    <key name="CreateClassDialog.RecentsKey">
-      <recent name="toutiao.config" />
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/resources/fastdfs" />
+      <recent name="$PROJECT_DIR$/src/main/resources/dao" />
+      <recent name="$PROJECT_DIR$/src/test/resources" />
+      <recent name="$PROJECT_DIR$/src/main/resources" />
     </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/main/resources/dao" />
-      <recent name="$PROJECT_DIR$/src/test/resources" />
-      <recent name="$PROJECT_DIR$/src/main/resources" />
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="toutiao.config" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -330,7 +416,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.ArticleControllerTest.json">
+  <component name="RunManager" selected="JUnit.ArticleHomeMapperTest.upload">
     <configuration name="ArticleControllerTest.json" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="heima_toutiao" />
       <extension name="coverage">
@@ -342,6 +428,22 @@
       <option name="PACKAGE_NAME" value="toutiao.controller" />
       <option name="MAIN_CLASS_NAME" value="toutiao.controller.ArticleControllerTest" />
       <option name="METHOD_NAME" value="json" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ArticleHomeMapperTest.upload" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="heima_toutiao" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="toutiao.dao.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="toutiao.dao" />
+      <option name="MAIN_CLASS_NAME" value="toutiao.dao.ArticleHomeMapperTest" />
+      <option name="METHOD_NAME" value="upload" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -396,9 +498,11 @@
       <item itemvalue="JUnit.DaoConfigTest.insert" />
       <item itemvalue="JUnit.ArticleControllerTest.json" />
       <item itemvalue="Maven.heima_toutiao_debug" />
+      <item itemvalue="JUnit.ArticleHomeMapperTest.upload" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.ArticleHomeMapperTest.upload" />
         <item itemvalue="JUnit.ArticleControllerTest.json" />
         <item itemvalue="JUnit.DaoConfigTest.insert" />
       </list>
@@ -415,7 +519,7 @@
       <option name="presentableId" value="Default" />
       <updated>1610683792005</updated>
       <workItem from="1610683795146" duration="13125000" />
-      <workItem from="1610936897550" duration="5179000" />
+      <workItem from="1610936897550" duration="6095000" />
     </task>
     <servers />
   </component>
@@ -452,7 +556,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="18304000" />
+    <option name="totallyTimeSpent" value="19220000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1496" y="52" width="1786" height="1031" extended-state="0" />
@@ -614,52 +718,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/resources/logback.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/resources/logback.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-175" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/toutiao/config/MyWebApplicationIntializer.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/springframework/web/servlet/config/annotation/MyWebMvcConfigurationSupport.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1418">
-          <caret line="171" column="13" selection-start-line="171" selection-start-column="13" selection-end-line="171" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/4.3.8.RELEASE/spring-context-4.3.8.RELEASE-sources.jar!/org/springframework/context/annotation/Import.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="731">
-          <caret line="53" column="18" selection-start-line="53" selection-start-column="18" selection-end-line="53" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/toutiao/config/MyWebMvcConfigurer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-786">
-          <caret line="23" selection-start-line="23" selection-end-line="23" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#3053#3054#0" expanded="true" />
-            <element signature="e#3080#3081#0" expanded="true" />
-            <element signature="e#3155#3156#0" expanded="true" />
-            <element signature="e#3182#3183#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/4.3.8.RELEASE/spring-webmvc-4.3.8.RELEASE-sources.jar!/org/springframework/web/servlet/config/annotation/WebMvcConfigurer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="54">
-          <caret line="46" column="27" selection-start-line="46" selection-start-column="27" selection-end-line="46" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/org/springframework/web/servlet/config/annotation/MyDelegatingWebMvcConfiguration.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-704">
@@ -890,16 +948,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/toutiao/dao/ArticleHomeMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="4" column="11" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="11" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/toutiao/config/DaoConfigTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="428">
@@ -971,13 +1019,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="458">
-          <caret line="314" column="24" selection-start-line="314" selection-start-column="24" selection-end-line="314" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/com/taoyuanx/fastdfs-client-java/1.29-RELEASE/fastdfs-client-java-1.29-RELEASE.jar!/org/csource/client/FdfsClient.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="132">
@@ -985,10 +1026,105 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/toutiao/service/FastFDSService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="2" column="16" selection-start-line="2" selection-start-column="16" selection-end-line="2" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/taoyuanx/fastdfs-client-java/1.29-RELEASE/fastdfs-client-java-1.29-RELEASE.jar!/fdfs_client.conf.sample">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/taoyuanx/fastdfs-client-java/1.29-RELEASE/fastdfs-client-java-1.29-RELEASE.jar!/fastdfs-client.properties.sample">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-34" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="304" column="17" lean-forward="true" selection-start-line="304" selection-start-column="17" selection-end-line="304" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/taoyuanx/fastdfs-client-java/1.29-RELEASE/fastdfs-client-java-1.29-RELEASE-sources.jar!/org/csource/fastdfs/ClientGlobal.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="332">
+          <caret line="156" column="21" selection-start-line="156" selection-start-column="21" selection-end-line="156" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/taoyuanx/fastdfs-client-java/1.29-RELEASE/fastdfs-client-java-1.29-RELEASE-sources.jar!/org/csource/utils/CommonUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="23" column="38" selection-start-line="23" selection-start-column="38" selection-end-line="23" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/fastdfs/fastdfs-client.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/toutiao/dao/ArticleHomeMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/taoyuanx/fastdfs-client-java/1.29-RELEASE/fastdfs-client-java-1.29-RELEASE-sources.jar!/org/csource/utils/FdfsUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="201">
+          <caret line="24" column="25" selection-start-line="24" selection-start-column="25" selection-end-line="24" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_231.jdk/Contents/Home/src.zip!/java/io/BufferedInputStream.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="201">
+          <caret line="181" column="11" selection-start-line="181" selection-start-column="11" selection-end-line="181" selection-end-column="11" />
+          <folding>
+            <element signature="e#5951#5952#0" expanded="true" />
+            <element signature="e#5996#5997#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/taoyuanx/fastdfs-client-java/1.29-RELEASE/fastdfs-client-java-1.29-RELEASE-sources.jar!/org/csource/fastdfs/UploadCallback.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="19" column="17" selection-start-line="19" selection-start-column="17" selection-end-line="19" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/taoyuanx/fastdfs-client-java/1.29-RELEASE/fastdfs-client-java-1.29-RELEASE-sources.jar!/org/csource/fastdfs/StorageClient1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="154" column="38" lean-forward="true" selection-start-line="154" selection-start-column="38" selection-end-line="154" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/com/taoyuanx/fastdfs-client-java/1.29-RELEASE/fastdfs-client-java-1.29-RELEASE-sources.jar!/org/csource/client/FdfsClient.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="172">
-          <caret line="116" column="13" lean-forward="true" selection-start-line="116" selection-start-column="13" selection-end-line="116" selection-end-column="13" />
+        <state relative-caret-position="189">
+          <caret line="98" column="16" selection-start-line="98" selection-start-column="16" selection-end-line="98" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/toutiao/dao/ArticleHomeMapperTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="327">
+          <caret line="33" column="79" lean-forward="true" selection-start-line="33" selection-start-column="79" selection-end-line="33" selection-end-column="79" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
