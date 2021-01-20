@@ -1,0 +1,11 @@
+This is FastDFS client test program v6.06
+
+Copyright (C) 2008, Happy Fish / YuQing
+
+FastDFS may be copied only under the terms of the GNU General
+Public License V3, which may be found in the FastDFS source kit.
+Please visit the FastDFS Home Page http://www.fastken.com/ 
+for more detail.
+
+storage=10.222.100.10:23000
+download file success, file size=18378642, file save to Ct5kCmAH0aCAQhdaARhvkss0y3I963.pdf
