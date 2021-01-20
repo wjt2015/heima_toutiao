@@ -2,16 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b690adac-8259-42db-9bbd-069b0e9b9cb6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/toutiao/common/AuxUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/toutiao/common/FastDfsClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/fastdfs/fastdfs2/fastdfs-client.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/fastdfs/fastdfs2/fdfs_client.conf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/fastdfs/fdfs_client.conf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/toutiao/common/FastDfsClientTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/study.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/fastdfs/fastdfs-client.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/fastdfs/fastdfs-client.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/toutiao/dao/ArticleHomeMapperTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/toutiao/dao/ArticleHomeMapperTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -22,7 +14,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/toutiao/common/FastDfsClient.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="216">
@@ -30,6 +22,18 @@
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/docs/study.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="308">
+                <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+              </first_editor>
+              <second_editor />
             </state>
           </provider>
         </entry>
@@ -143,6 +147,7 @@
         <option value="$PROJECT_DIR$/src/main/java/toutiao/common/AuxUtils.java" />
         <option value="$PROJECT_DIR$/src/test/java/toutiao/common/FastDfsClientTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/toutiao/common/FastDfsClient.java" />
+        <option value="$PROJECT_DIR$/docs/study.md" />
       </list>
     </option>
   </component>
@@ -185,8 +190,8 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="1492" />
-    <option name="y" value="42" />
+    <option name="x" value="1611" />
+    <option name="y" value="99" />
     <option name="width" value="1604" />
     <option name="height" value="937" />
   </component>
@@ -203,6 +208,11 @@
             <path>
               <item name="heima_toutiao" type="b2602c69:ProjectViewProjectNode" />
               <item name="heima_toutiao" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="heima_toutiao" type="b2602c69:ProjectViewProjectNode" />
+              <item name="heima_toutiao" type="462c0819:PsiDirectoryNode" />
+              <item name="docs" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="heima_toutiao" type="b2602c69:ProjectViewProjectNode" />
@@ -295,7 +305,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1611144315507" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1611154065302" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -478,7 +488,7 @@
       <updated>1610683792005</updated>
       <workItem from="1610683795146" duration="13125000" />
       <workItem from="1610936897550" duration="6450000" />
-      <workItem from="1611109825334" duration="13625000" />
+      <workItem from="1611109825334" duration="14335000" />
     </task>
     <servers />
   </component>
@@ -515,13 +525,13 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="33200000" />
+    <option name="totallyTimeSpent" value="33910000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1492" y="42" width="1604" height="937" extended-state="0" />
+    <frame x="1611" y="99" width="1604" height="937" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17861716" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17861716" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -533,13 +543,13 @@
       <window_info anchor="bottom" id="Spring" order="1" />
       <window_info anchor="bottom" id="Docker" order="2" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="3" side_tool="true" />
-      <window_info anchor="bottom" id="Terminal" order="4" weight="0.25833333" />
+      <window_info anchor="bottom" id="Terminal" order="4" visible="true" weight="0.25798815" />
       <window_info anchor="bottom" id="Java Enterprise" order="5" weight="0.3290735" />
       <window_info anchor="bottom" id="Database Changes" order="6" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Message" order="8" />
       <window_info anchor="bottom" id="Find" order="9" weight="0.3289941" />
-      <window_info active="true" anchor="bottom" id="Run" order="10" visible="true" weight="0.2781065" />
+      <window_info anchor="bottom" id="Run" order="10" weight="0.2781065" />
       <window_info anchor="bottom" id="Cvs" order="11" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="12" weight="0.4" />
       <window_info anchor="bottom" id="Debug" order="13" weight="0.21538462" />
@@ -712,13 +722,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/resources/dao/generatorConfig.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="307">
-          <caret line="77" column="21" selection-start-line="77" selection-start-column="21" selection-end-line="77" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/toutiao/model/ArticleHomeEntity.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="553">
@@ -1093,6 +1096,16 @@
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docs/study.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="308">
+            <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>

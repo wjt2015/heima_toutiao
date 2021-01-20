@@ -15,20 +15,10 @@ import java.util.concurrent.TimeUnit;
 @Slf4j
 public class FastDfsClient {
 
-    //private static final List<String> CMD_LIST = Lists.newArrayList("/Users/jintao9/linux2014/install_dir/fastdfs_all/fastdfs/usr/local/bin/fdfs_test", "/Users/jintao9/linux2014/install_dir/fastdfs_all/fastdfs/etc/fdfs/client.conf");
     private final List<String> CMD_LIST = Lists.newArrayList();
     private static final String GROUP_NAME_PRFIX = "group_name=";
     private static final String REMOTE_FILENAME_PRFIX = "remote_filename=";
     private static final String URL_PREFIX = "url:";
-
-/*    static {
-        try {
-            new ProcessBuilder().command(Lists.newArrayList("source", "~/.bashrc")).start().waitFor(1, TimeUnit.SECONDS);
-            new ProcessBuilder().command(Lists.newArrayList("source", "/etc/profile")).start().waitFor(1, TimeUnit.SECONDS);
-        } catch (Exception e) {
-            log.error("source ~/.bashrc;source /etc/profile;error!", e);
-        }
-    }*/
 
     public FastDfsClient(final String fullExecFileName, final String clientConfFileName) {
         CMD_LIST.add(fullExecFileName);
