@@ -63,7 +63,7 @@ public class MyAnnotationConfigDispatcherServletInitializer extends AbstractAnno
     @Override
     protected FilterRegistration.Dynamic registerServletFilter(ServletContext servletContext, Filter filter) {
         FilterRegistration.Dynamic dynamic = super.registerServletFilter(servletContext, filter);
-        dynamic.addMappingForUrlPatterns(EnumSet.allOf(DispatcherType.class), true, "/*");
+        dynamic.addMappingForUrlPatterns(EnumSet.allOf(DispatcherType.class), true, "*");
         return dynamic;
     }
 
