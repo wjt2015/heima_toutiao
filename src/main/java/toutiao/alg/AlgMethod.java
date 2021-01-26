@@ -5,6 +5,7 @@ import lombok.AllArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.apache.commons.collections.CollectionUtils;
 
+import java.io.FileNotFoundException;
 import java.io.PrintWriter;
 import java.util.Set;
 import java.util.Stack;
@@ -13,7 +14,10 @@ import java.util.stream.Collectors;
 @Slf4j
 public class AlgMethod {
 
-    public static void kettle() {
+    public static void kettle() throws FileNotFoundException {
+
+        final String fileName = "/Users/jintao9/linux2014/wjt_projs/heima_toutiao/docs/logs/kettle_solution.txt";
+        final PrintWriter printWriter = new PrintWriter(fileName);
 
         //定义初始状态;
         final KettleState initState = new KettleState(new int[]{8, 0, 0});
@@ -24,10 +28,15 @@ public class AlgMethod {
             if (o == null) {
                 return null;
             }
-            final SolutionRecorder solutionRecorder = (SolutionRecorder) o;
-            solutionRecorder.printWriter.println(Joiner.on("=>").join(stateStack.stream().map(s -> s.showState()).collect(Collectors.toList())));
+            final Stack<KettleState> stack = (Stack<KettleState>) o;
+            String result = Joiner.on("=>").join(stack.stream().map(s -> s.showState()).collect(Collectors.toList()));
+            printWriter.println("solution:");
+            printWriter.println(result);
+            printWriter.println("------");
             return null;
         });
+
+        printWriter.close();
 
     }
 
@@ -41,9 +50,9 @@ public class AlgMethod {
             //找到了;
             showStateList(stateStack);
 
-/*            if (solutionTask != null) {
+            if (solutionTask != null) {
                 solutionTask.doTask(stateStack);
-            }*/
+            }
 
             return;
         }
@@ -63,11 +72,6 @@ public class AlgMethod {
         Object doTask(final Object obj);
     }
 
-    @AllArgsConstructor
-    static class SolutionRecorder {
-        public PrintWriter printWriter;
-        public Stack<KettleState> stateStack;
-    }
 
     public static void showStateList(final Stack<KettleState> stateStack) {
         String join = Joiner.on("->").join(stateStack.stream().map(s -> s.showState()).collect(Collectors.toList()));
