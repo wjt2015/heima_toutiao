@@ -45,7 +45,26 @@ create table if not exists article(
     primary key(id)
 )default character set='utf8mb4' comment='文章信息表' engine=innodb;
 
-
+-- 自媒体用户;
+create table wm_user(
+id bigint not null auto_increment comment '主键',
+u_id bigint not null comment '用户uid',
+author_id bigint not null comment '作者id',
+name varchar(20) not null default '' commeent '登录用户名',
+password varchar(20) not null default '123456' comment '登录密码',
+salt varchar(36) not null default '123654' comment '盐',
+nickname varchar(10) not null default '-' comment '昵称',
+image varchar(256) not null default '-' comment '头像url',
+location varchar(50) not null default '' comment '归属地',
+phone varcharr(15) not null default '' comment '手机号',
+status tinyint not null default 10 comment '账号状态;0,暂时不可用;1,永久不可用;其他正常',
+email varchar(20) not null default '' comment '绑定的邮箱',
+type tinyint not null default 0 comment '账号类型;0,个人;1,企业;2,子账号;',
+score tinyint not null default 0 comment '运营评分',
+last_login_time timestamp not null default current_timestamp on update current_timestamp comment '最近的登录时间',
+create_time timestamp not null default current_timestamp comment '账号的创建时间',
+primary key(id)
+)default character set='utf8mb4' comment='用户信息表' engine=innodb;
 
 
 
