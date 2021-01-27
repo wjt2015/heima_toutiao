@@ -96,5 +96,47 @@ public class AlgMethod {
         return false;
     }
 
+    /**
+     * 股票收益;
+     * [
+     * https://www.zhihu.com/search?type=content&q=%E4%B9%B0%E5%8D%96%E8%82%A1%E7%A5%A8%E7%AE%97%E6%B3%95
+     * https://zhuanlan.zhihu.com/p/108941062
+     * ]
+     */
+    public static void stockBenifit() {
+
+    }
+
+    /**
+     * [i,j]买卖股票的最大收益;
+     * @param n
+     * @param priceArr
+     * @return
+     */
+    public static int[][] benifits(final int n, final int[] priceArr) {
+
+        final int[][] maxBenifits = new int[n][n];
+        int i, j;
+        for (int size = 1; size < n; size++) {
+            if (size == 1) {
+                for (i = 0, j = i + size; j < n; i++, j++) {
+                    //当天买卖;隔天买卖;
+                    maxBenifits[i][j] = (priceArr[j] > priceArr[i] ? (priceArr[j] - priceArr[i]) : 0);
+                }
+            } else {
+                for (i = 0, j = i + size; j < n; i++, j++) {
+                    maxBenifits[i][j] = priceArr[j] - priceArr[i];
+                    if (maxBenifits[i][j] < maxBenifits[i][j - 1]) {
+                        maxBenifits[i][j] = maxBenifits[i][j - 1];
+                    }
+                    if (maxBenifits[i][j] < maxBenifits[i + 1][j]) {
+                        maxBenifits[i][j] = maxBenifits[i + 1][j];
+                    }
+                }
+            }
+        }
+        return maxBenifits;
+    }
+
 
 }
