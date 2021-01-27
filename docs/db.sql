@@ -16,7 +16,7 @@ create table if not exists article_home(
     min_behot_time timestamp default current_timestamp comment '最小时间',
     tag varchar(64) not null default '' comment '数据范围,例如频道id',
     primary key(id)
-)default character set='utf8' comment='article home' engine=innodb;
+)default character set='utf8mb4' comment='article home' engine=innodb;
 
 
 create table if not exists article(
@@ -43,7 +43,10 @@ create table if not exists article(
     origin tinyint default 0 comment '来源',
 
     primary key(id)
-)default character set='utf8' comment='文章信息表' engine=innodb;
+)default character set='utf8mb4' comment='文章信息表' engine=innodb;
+
+
+
 
 
 
