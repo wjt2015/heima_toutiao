@@ -66,6 +66,17 @@ create_time timestamp not null default current_timestamp comment '账号的创�
 primary key(id)
 )default character set='utf8mb4' comment='用户信息表' engine=innodb;
 
+-- 自媒体素材
+create table wm_material(
+id bigint not null auto_increment comment '主键',
+u_id bigint not null default -1 comment '自媒体用户uid',
+url varchar(256) not null default '' comment '素材url',
+type tinyint not null default -1 comment '素材类型;0,图片;1,视频;',
+collect tinyint not null default -1 comment '是否收藏;0,不;1,收藏;',
+create_time timestamp not null default current_timestamp comment '创建时间',
+primary key(id)
+)default character set='utf8mb4' comment='自媒体素材表' engine=innodb;
+
 
 
 

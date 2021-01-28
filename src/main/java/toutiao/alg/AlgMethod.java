@@ -114,7 +114,6 @@ public class AlgMethod {
      * @return
      */
     public static int[][] benifits(final int n, final int[] priceArr) {
-
         final int[][] maxBenifits = new int[n][n];
         int i, j;
         for (int size = 1; size < n; size++) {
