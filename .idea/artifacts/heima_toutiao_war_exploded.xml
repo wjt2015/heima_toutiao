@@ -133,6 +133,17 @@
           <element id="library" level="project" name="Maven: org.codehaus.plexus:plexus-io:3.1.1" />
           <element id="library" level="project" name="Maven: dnsjava:dnsjava:3.3.1" />
           <element id="library" level="project" name="Maven: io.netty:netty-all:4.1.20.Final" />
+          <element id="library" level="project" name="Maven: io.zipkin.reporter2:zipkin-sender-okhttp3:2.8.2" />
+          <element id="library" level="project" name="Maven: io.zipkin.reporter2:zipkin-reporter:2.8.2" />
+          <element id="library" level="project" name="Maven: io.zipkin.zipkin2:zipkin:2.12.7" />
+          <element id="library" level="project" name="Maven: io.zipkin.brave:brave-instrumentation-dubbo-rpc:5.6.3" />
+          <element id="library" level="project" name="Maven: com.alibaba:dubbo:2.6.6" />
+          <element id="library" level="project" name="Maven: org.javassist:javassist:3.20.0-GA" />
+          <element id="library" level="project" name="Maven: org.jboss.netty:netty:3.2.5.Final" />
+          <element id="library" level="project" name="Maven: io.zipkin.brave:brave:5.6.3" />
+          <element id="library" level="project" name="Maven: io.zipkin.brave:brave-instrumentation-spring-webmvc:5.6.3" />
+          <element id="library" level="project" name="Maven: io.zipkin.brave:brave-instrumentation-servlet:5.6.3" />
+          <element id="library" level="project" name="Maven: io.zipkin.brave:brave-instrumentation-http:5.6.3" />
           <element id="library" level="project" name="Maven: com.taoyuanx:fastdfs-client-java:1.29-RELEASE" />
           <element id="library" level="project" name="Maven: org.slf4j:slf4j-log4j12:1.7.26" />
           <element id="library" level="project" name="Maven: log4j:log4j:1.2.17" />
