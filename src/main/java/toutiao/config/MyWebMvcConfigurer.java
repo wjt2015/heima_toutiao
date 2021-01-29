@@ -1,5 +1,6 @@
 package toutiao.config;
 
+import com.github.kristofa.brave.spring.ServletHandlerInterceptor;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.format.FormatterRegistry;
@@ -20,11 +21,16 @@ import org.springframework.web.servlet.config.annotation.ViewControllerRegistry;
 import org.springframework.web.servlet.config.annotation.ViewResolverRegistry;
 import org.springframework.web.servlet.config.annotation.WebMvcConfigurer;
 
+import javax.annotation.Resource;
 import java.util.List;
 
 @Slf4j
 @Configuration
 public class MyWebMvcConfigurer implements WebMvcConfigurer {
+
+    @Resource
+    private ServletHandlerInterceptor servletHandlerInterceptor;
+
     @Override
     public void configurePathMatch(PathMatchConfigurer configurer) {
 
@@ -53,6 +59,7 @@ public class MyWebMvcConfigurer implements WebMvcConfigurer {
     @Override
     public void addInterceptors(InterceptorRegistry registry) {
 
+        registry.addInterceptor(servletHandlerInterceptor);
     }
 
     @Override

@@ -170,17 +170,18 @@
     <orderEntry type="library" name="Maven: org.codehaus.plexus:plexus-io:3.1.1" level="project" />
     <orderEntry type="library" name="Maven: dnsjava:dnsjava:3.3.1" level="project" />
     <orderEntry type="library" name="Maven: io.netty:netty-all:4.1.20.Final" level="project" />
-    <orderEntry type="library" name="Maven: io.zipkin.reporter2:zipkin-sender-okhttp3:2.8.2" level="project" />
-    <orderEntry type="library" name="Maven: io.zipkin.reporter2:zipkin-reporter:2.8.2" level="project" />
-    <orderEntry type="library" name="Maven: io.zipkin.zipkin2:zipkin:2.12.7" level="project" />
-    <orderEntry type="library" name="Maven: io.zipkin.brave:brave-instrumentation-dubbo-rpc:5.6.3" level="project" />
-    <orderEntry type="library" name="Maven: com.alibaba:dubbo:2.6.6" level="project" />
-    <orderEntry type="library" name="Maven: org.javassist:javassist:3.20.0-GA" level="project" />
-    <orderEntry type="library" name="Maven: org.jboss.netty:netty:3.2.5.Final" level="project" />
-    <orderEntry type="library" name="Maven: io.zipkin.brave:brave:5.6.3" level="project" />
-    <orderEntry type="library" name="Maven: io.zipkin.brave:brave-instrumentation-spring-webmvc:5.6.3" level="project" />
-    <orderEntry type="library" name="Maven: io.zipkin.brave:brave-instrumentation-servlet:5.6.3" level="project" />
-    <orderEntry type="library" name="Maven: io.zipkin.brave:brave-instrumentation-http:5.6.3" level="project" />
+    <orderEntry type="library" name="Maven: io.zipkin.brave:brave-core-spring:3.16.0" level="project" />
+    <orderEntry type="library" name="Maven: io.zipkin.brave:brave-core:3.16.0" level="project" />
+    <orderEntry type="library" name="Maven: io.zipkin.reporter:zipkin-sender-okhttp3:0.6.9" level="project" />
+    <orderEntry type="library" name="Maven: io.zipkin.reporter:zipkin-reporter:0.6.9" level="project" />
+    <orderEntry type="library" name="Maven: io.zipkin.java:zipkin:1.16.2" level="project" />
+    <orderEntry type="library" name="Maven: io.zipkin.java:zipkin:test-jar:tests:1.16.2" level="project" />
+    <orderEntry type="library" name="Maven: io.zipkin.reporter:zipkin-sender-libthrift:0.6.9" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.thrift:libthrift:0.9.3" level="project" />
+    <orderEntry type="library" name="Maven: io.zipkin.reporter:zipkin-sender-kafka08:0.6.9" level="project" />
+    <orderEntry type="library" name="Maven: io.zipkin.brave:brave-spring-web-servlet-interceptor:3.16.0" level="project" />
+    <orderEntry type="library" name="Maven: io.zipkin.brave:brave-http:3.16.0" level="project" />
+    <orderEntry type="library" name="Maven: io.zipkin.brave:brave-spring-resttemplate-interceptors:3.16.0" level="project" />
     <orderEntry type="library" name="Maven: com.taoyuanx:fastdfs-client-java:1.29-RELEASE" level="project" />
     <orderEntry type="library" name="Maven: org.slf4j:slf4j-log4j12:1.7.26" level="project" />
     <orderEntry type="library" name="Maven: log4j:log4j:1.2.17" level="project" />
