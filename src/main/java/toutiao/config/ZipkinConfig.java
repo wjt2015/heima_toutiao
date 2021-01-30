@@ -29,6 +29,11 @@ import java.util.List;
  * [
  * https://www.cnblogs.com/jmcui/p/10940372.html
  * https://www.cnblogs.com/mengyixin/p/9850765.html
+ * https://www.cnblogs.com/mengyixin/p/9857343.html
+ * https://my.oschina.net/u/4373297/blog/3778393
+ *---
+ * zipkin的源码分析:
+ * https://my.oschina.net/mozhu/blog/1585187
  * ]
  */
 @Slf4j
