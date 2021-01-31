@@ -56,6 +56,9 @@ public class ZipkinConfig {
         return AsyncReporter.builder(sender).build();
     }
 
+
+
+
     @Bean
     public Brave brave() {
         return new Brave.Builder("heima_toutiao").reporter(reporter).build();

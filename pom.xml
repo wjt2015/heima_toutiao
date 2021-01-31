@@ -362,6 +362,7 @@
             <version>${brave.version}</version>
         </dependency>
 
+
         <dependency>
             <groupId>com.google.auto.value</groupId>
             <artifactId>auto-value</artifactId>
@@ -376,13 +377,13 @@
             <version>1.29-RELEASE</version>
         </dependency>
 
-<!--
-        &lt;!&ndash;(https://gitee.com/fastdfs100/fastdfs-client-java)&ndash;&gt;
-        <dependency>
-            <groupId>org.csource</groupId>
-            <artifactId>fastdfs-client-java</artifactId>
-            <version>1.29-SNAPSHOT</version>
-        </dependency>-->
+        <!--
+                &lt;!&ndash;(https://gitee.com/fastdfs100/fastdfs-client-java)&ndash;&gt;
+                <dependency>
+                    <groupId>org.csource</groupId>
+                    <artifactId>fastdfs-client-java</artifactId>
+                    <version>1.29-SNAPSHOT</version>
+                </dependency>-->
 
         <!--
                 <dependency>
