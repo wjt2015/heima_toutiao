@@ -2,13 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b690adac-8259-42db-9bbd-069b0e9b9cb6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_zipkin_brave_brave_mysql_4_0_6.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/artifacts/heima_toutiao_war_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/heima_toutiao_war_exploded.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/heima_toutiao.iml" beforeDir="false" afterPath="$PROJECT_DIR$/heima_toutiao.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/toutiao/config/DaoConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/toutiao/config/DaoConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/toutiao/config/ZipkinConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/toutiao/config/ZipkinConfig.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -19,14 +15,23 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/toutiao/config/ZipkinConfig.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="382">
-              <caret line="83" lean-forward="true" selection-start-line="83" selection-end-line="83" />
+              <caret line="83" selection-start-line="83" selection-end-line="83" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="351">
+              <caret line="391" selection-start-line="391" selection-end-line="391" />
             </state>
           </provider>
         </entry>
@@ -45,15 +50,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="3141">
               <caret line="262" column="12" selection-start-line="262" selection-start-column="12" selection-end-line="262" selection-end-column="12" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/io/zipkin/reporter/zipkin-reporter/0.6.9/zipkin-reporter-0.6.9-sources.jar!/zipkin/reporter/AsyncReporter.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3146">
-              <caret line="170" column="21" selection-start-line="170" selection-start-column="21" selection-end-line="170" selection-end-column="21" />
             </state>
           </provider>
         </entry>
@@ -192,9 +188,9 @@
         <option value="$PROJECT_DIR$/src/main/java/toutiao/config/MyWebMvcConfigurer.java" />
         <option value="$PROJECT_DIR$/src/main/java/toutiao/config/WebMvcConfig.java" />
         <option value="$USER_HOME$/.m2/settings.xml" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/toutiao/config/DaoConfig.java" />
         <option value="$PROJECT_DIR$/src/main/java/toutiao/config/ZipkinConfig.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
       </list>
     </option>
   </component>
@@ -237,8 +233,8 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="1508" />
-    <option name="y" value="197" />
+    <option name="x" value="1480" />
+    <option name="y" value="23" />
     <option name="width" value="1614" />
     <option name="height" value="992" />
   </component>
@@ -546,7 +542,7 @@
       <workItem from="1611887449529" duration="7214000" />
       <workItem from="1612022926454" duration="329000" />
       <workItem from="1612082201565" duration="5568000" />
-      <workItem from="1612147748204" duration="2475000" />
+      <workItem from="1612147748204" duration="2945000" />
     </task>
     <servers />
   </component>
@@ -583,11 +579,10 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="77255000" />
+    <option name="totallyTimeSpent" value="77725000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1508" y="197" width="1614" height="992" extended-state="0" />
-    <editor active="true" />
+    <frame x="1651" y="478" width="1614" height="992" extended-state="0" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16030534" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -601,7 +596,7 @@
       <window_info anchor="bottom" id="Spring" order="1" />
       <window_info anchor="bottom" id="Docker" order="2" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="3" side_tool="true" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="4" visible="true" weight="0.12222222" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="4" visible="true" weight="0.21222222" />
       <window_info anchor="bottom" id="Java Enterprise" order="5" weight="0.3290735" />
       <window_info anchor="bottom" id="Database Changes" order="6" />
       <window_info anchor="bottom" id="Version Control" order="7" />
@@ -1028,13 +1023,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="475">
-          <caret line="363" selection-end-line="569" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/toutiao/config/DaoConfig.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="242">
@@ -1185,10 +1173,17 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/toutiao/config/ZipkinConfig.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="382">
-          <caret line="83" lean-forward="true" selection-start-line="83" selection-end-line="83" />
+          <caret line="83" selection-start-line="83" selection-end-line="83" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="351">
+          <caret line="391" selection-start-line="391" selection-end-line="391" />
         </state>
       </provider>
     </entry>
