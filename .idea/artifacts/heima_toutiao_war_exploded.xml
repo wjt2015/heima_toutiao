@@ -145,6 +145,7 @@
           <element id="library" level="project" name="Maven: io.zipkin.brave:brave-spring-web-servlet-interceptor:3.16.0" />
           <element id="library" level="project" name="Maven: io.zipkin.brave:brave-http:3.16.0" />
           <element id="library" level="project" name="Maven: io.zipkin.brave:brave-spring-resttemplate-interceptors:3.16.0" />
+          <element id="library" level="project" name="Maven: io.zipkin.brave:brave-mysql:4.0.6" />
           <element id="library" level="project" name="Maven: com.google.auto.value:auto-value:1.3" />
           <element id="library" level="project" name="Maven: com.taoyuanx:fastdfs-client-java:1.29-RELEASE" />
           <element id="library" level="project" name="Maven: org.slf4j:slf4j-log4j12:1.7.26" />

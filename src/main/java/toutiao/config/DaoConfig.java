@@ -11,4 +11,5 @@ import toutiao.dao.ArticleHomeMapper;
 @ComponentScan(basePackageClasses = {ArticleHomeMapper.class})
 @ImportResource(value = {"classpath:dao/mybatis_spring.xml"})
 public class DaoConfig {
+
 }

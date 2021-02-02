@@ -3,6 +3,7 @@ package toutiao.config;
 import com.github.kristofa.brave.Brave;
 import com.github.kristofa.brave.http.DefaultSpanNameProvider;
 import com.github.kristofa.brave.http.SpanNameProvider;
+import com.github.kristofa.brave.mysql.MySQLStatementInterceptorManagementBean;
 import com.github.kristofa.brave.spring.BraveClientHttpRequestInterceptor;
 import com.github.kristofa.brave.spring.ServletHandlerInterceptor;
 import lombok.extern.slf4j.Slf4j;
@@ -31,9 +32,14 @@ import java.util.List;
  * https://www.cnblogs.com/mengyixin/p/9850765.html
  * https://www.cnblogs.com/mengyixin/p/9857343.html
  * https://my.oschina.net/u/4373297/blog/3778393
- *---
+ * ----
  * zipkin的源码分析:
  * https://my.oschina.net/mozhu/blog/1585187
+ * ]
+ * ----
+ * 利用Zipkin追踪Mysql数据库调用链:
+ * [
+ * http://www.spring4all.com/article/1079
  * ]
  */
 @Slf4j
@@ -46,6 +52,9 @@ public class ZipkinConfig {
     @Resource
     private Reporter<Span> reporter;
 
+    @Resource
+    private Brave brave;
+
     @Bean
     public Sender sender() {
         return OkHttpSender.create("http://127.0.0.1:9411/api/v1/spans");
@@ -55,8 +64,6 @@ public class ZipkinConfig {
     public Reporter<Span> reporter() {
         return AsyncReporter.builder(sender).build();
     }
-
-
 
 
     @Bean
@@ -85,6 +92,15 @@ public class ZipkinConfig {
                 new ArrayList<>(restTemplate.getInterceptors());
         interceptors.add(braveClientHttpRequestInterceptor);
         restTemplate.setInterceptors(interceptors);
+    }
+
+    /**
+     * 利用Zipkin追踪Mysql数据库调用链;
+     * @return
+     */
+    @Bean
+    public MySQLStatementInterceptorManagementBean mySQLStatementInterceptorManagementBean() {
+        return new MySQLStatementInterceptorManagementBean(brave.clientTracer());
     }
 
 

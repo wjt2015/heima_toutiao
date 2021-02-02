@@ -362,6 +362,12 @@
             <version>${brave.version}</version>
         </dependency>
 
+        <!--(http://www.spring4all.com/article/1079)-->
+        <dependency>
+            <groupId>io.zipkin.brave</groupId>
+            <artifactId>brave-mysql</artifactId>
+            <version>4.0.6</version>
+        </dependency>
 
         <dependency>
             <groupId>com.google.auto.value</groupId>
@@ -376,6 +382,14 @@
             <artifactId>fastdfs-client-java</artifactId>
             <version>1.29-RELEASE</version>
         </dependency>
+
+        <!-- https://mvnrepository.com/artifact/com.lmax/disruptor -->
+        <dependency>
+            <groupId>com.lmax</groupId>
+            <artifactId>disruptor</artifactId>
+            <version>3.4.1</version>
+        </dependency>
+
 
         <!--
                 &lt;!&ndash;(https://gitee.com/fastdfs100/fastdfs-client-java)&ndash;&gt;
