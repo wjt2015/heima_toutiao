@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b690adac-8259-42db-9bbd-069b0e9b9cb6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/toutiao/alg/MaxSubSetMethod.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/toutiao/alg/MaxSubSetMethodTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/toutiao/alg/MaxSubSetMethodTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -30,7 +30,7 @@
         <entry file="jar://$MAVEN_REPOSITORY$/io/zipkin/brave/brave-core/3.16.0/brave-core-3.16.0-sources.jar!/com/github/kristofa/brave/Brave.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="315">
-              <caret line="47" column="46" lean-forward="true" selection-start-line="47" selection-start-column="46" selection-end-line="47" selection-end-column="46" />
+              <caret line="47" column="46" selection-start-line="47" selection-start-column="46" selection-end-line="47" selection-end-column="46" />
             </state>
           </provider>
         </entry>
@@ -50,8 +50,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/toutiao/alg/MaxSubSetMethodTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="220">
-              <caret line="10" column="5" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
+            <state relative-caret-position="374">
+              <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
             </state>
           </provider>
         </entry>
@@ -385,7 +385,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1612535496510" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1612603234577" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -404,6 +404,12 @@
       <recent name="toutiao.controller" />
       <recent name="toutiao.config" />
     </key>
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="toutiao.config" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="toutiao.filter" />
+    </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
     </key>
@@ -413,12 +419,6 @@
       <recent name="$PROJECT_DIR$/src/main/resources/dao" />
       <recent name="$PROJECT_DIR$/src/test/resources" />
       <recent name="$PROJECT_DIR$/src/main/resources" />
-    </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="toutiao.filter" />
-    </key>
-    <key name="CreateClassDialog.RecentsKey">
-      <recent name="toutiao.config" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -586,14 +586,11 @@
       <workItem from="1612147748204" duration="3906000" />
       <workItem from="1612319591210" duration="694000" />
       <workItem from="1612405664323" duration="1782000" />
-      <workItem from="1612492271135" duration="3400000" />
+      <workItem from="1612492271135" duration="4184000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="AlgMethodTest_array - 2021.01.26 at 18h 30m 40s.xml">
-      <configuration name="AlgMethodTest.array" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="AlgMethodTest_kettle - 2021.01.26 at 18h 33m 05s.xml">
       <configuration name="AlgMethodTest.kettle" configurationId="JUnit" />
     </history-entry>
@@ -621,12 +618,16 @@
     <history-entry file="AlgMethodTest_kettle - 2021.01.26 at 20h 31m 31s.xml">
       <configuration name="AlgMethodTest.kettle" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="MaxSubSetMethodTest_findMaxSubSet - 2021.02.05 at 22h 34m 49s.xml">
+      <configuration name="MaxSubSetMethodTest.findMaxSubSet" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="84562000" />
+    <option name="totallyTimeSpent" value="85346000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1493" y="66" width="1713" height="1008" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18671454" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -636,7 +637,7 @@
       <window_info id="UI Designer" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info id="Web" order="7" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="0" weight="0.32897863" />
+      <window_info anchor="bottom" id="Messages" order="0" weight="0.3286026" />
       <window_info anchor="bottom" id="Spring" order="1" />
       <window_info anchor="bottom" id="Docker" order="2" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="3" side_tool="true" />
@@ -646,7 +647,7 @@
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Message" order="8" />
       <window_info anchor="bottom" id="Find" order="9" weight="0.19378239" />
-      <window_info anchor="bottom" id="Run" order="10" weight="0.2862233" />
+      <window_info anchor="bottom" id="Run" order="10" weight="0.2860262" />
       <window_info anchor="bottom" id="Cvs" order="11" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="12" weight="0.4" />
       <window_info anchor="bottom" id="Debug" order="13" weight="0.41061756" />
@@ -1203,7 +1204,7 @@
     <entry file="jar://$MAVEN_REPOSITORY$/io/zipkin/brave/brave-core/3.16.0/brave-core-3.16.0-sources.jar!/com/github/kristofa/brave/Brave.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="315">
-          <caret line="47" column="46" lean-forward="true" selection-start-line="47" selection-start-column="46" selection-end-line="47" selection-end-column="46" />
+          <caret line="47" column="46" selection-start-line="47" selection-start-column="46" selection-end-line="47" selection-end-column="46" />
         </state>
       </provider>
     </entry>
@@ -1219,8 +1220,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/toutiao/alg/MaxSubSetMethodTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="10" column="5" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
+        <state relative-caret-position="374">
+          <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
         </state>
       </provider>
     </entry>
