@@ -22,10 +22,13 @@ public class TraceDemoTest {
     }
 
     @Test
-    public void traceB(){
-
+    public void traceB() {
         traceDemo.traceB();
+    }
 
+    @Test
+    public void subTrace() {
+        traceDemo.subTrace();
 
     }
 }

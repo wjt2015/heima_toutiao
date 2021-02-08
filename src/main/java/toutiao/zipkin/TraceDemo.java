@@ -3,9 +3,12 @@ package toutiao.zipkin;
 import brave.ScopedSpan;
 import brave.Tracer;
 import brave.Tracing;
+import brave.internal.recorder.PendingSpan;
+import brave.internal.recorder.PendingSpans;
 import brave.propagation.B3Propagation;
 import brave.propagation.CurrentTraceContext;
 import brave.propagation.ExtraFieldPropagation;
+import brave.propagation.ThreadLocalCurrentTraceContext;
 import brave.propagation.TraceContext;
 import lombok.extern.slf4j.Slf4j;
 import toutiao.common.AuxUtils;
@@ -19,7 +22,9 @@ import java.util.concurrent.TimeUnit;
 /**
  * Java分布式跟踪系统Zipkin（二）：Brave源码分析-Tracer和Span
  * [
- * https://blog.csdn.net/chengwu4352/article/details/100704190?utm_medium=distribute.pc_relevant.none-task-blog-BlogCommendFromMachineLearnPai2-2.control&depth_1-utm_source=distribute.pc_relevant.none-task-blog-BlogCommendFromMachineLearnPai2-2.control
+ * <p>
+ * https://blog.csdn.net/chengwu4352/article/details/100704190
+ * http://blog.mozhu.org/2017/11/11/zipkin/zipkin-2.html
  * ]
  */
 @Slf4j
@@ -122,7 +127,58 @@ public class TraceDemo {
 
         AuxUtils.sleep(150);
 
+        subFuncB(tracer, traceContext, "L2_span_" + spanName);
+
         span.finish();
+    }
+
+
+    private static void subFuncB(final Tracer tracer, final TraceContext traceContext, final String spanName) {
+        brave.Span span = tracer.newChild(traceContext).name(spanName)
+                .tag("subFunc", spanName + "_subFunc")
+                .annotate("annotation_" + spanName)
+                .start();
+
+        AuxUtils.sleep(100);
+
+        span.finish();
+    }
+
+    public void subTrace() {
+        try (OkHttpSender okHttpSender = OkHttpSender.create(SENDER_URL);
+             AsyncReporter<Span> asyncReporter = AsyncReporter.builder(okHttpSender).closeTimeout(500, TimeUnit.MILLISECONDS).build(SpanBytesEncoder.JSON_V2);
+             Tracing tracing = Tracing.newBuilder().spanReporter(asyncReporter).localServiceName("wjt_server")
+                     .propagationFactory(ExtraFieldPropagation.newFactory(B3Propagation.FACTORY, "user_name"))
+                     .currentTraceContext(ThreadLocalCurrentTraceContext.create())
+                     .build()
+        ) {
+            final Tracer tracer = tracing.tracer();
+            brave.Span rootSpan = tracer.newTrace().name("root_span").annotate("root_span_annotation").start();
+            AuxUtils.sleep(100);
+
+            //第一个子过程;
+            brave.Span prepareSpan = tracer.newChild(rootSpan.context()).name("prepare").start();
+            AuxUtils.sleep(130);
+            prepareSpan.finish();
+
+            //第二个子过程;
+            brave.Span doTaskSpan = tracer.newChild(rootSpan.context()).name("doTask").start();
+            AuxUtils.sleep(160);
+            doTaskSpan.finish();
+
+            //第三个子过程;
+            brave.Span commitSpan = tracer.newChild(rootSpan.context()).name("commit").start();
+            AuxUtils.sleep(90);
+            commitSpan.finish();
+
+
+            rootSpan.finish();
+
+        } catch (Exception e) {
+            log.error("subTrace error!", e);
+        } finally {
+        }
+
 
     }
 
