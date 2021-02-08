@@ -2,8 +2,30 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b690adac-8259-42db-9bbd-069b0e9b9cb6" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_micrometer_micrometer_core_1_1_8.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_zipkin_brave_brave_5_6_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_zipkin_brave_brave_instrumentation_http_5_6_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_zipkin_brave_brave_instrumentation_okhttp3_5_6_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_zipkin_brave_brave_instrumentation_servlet_5_6_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_zipkin_brave_brave_instrumentation_spring_web_5_6_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_zipkin_brave_brave_instrumentation_spring_webmvc_5_6_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_zipkin_reporter2_zipkin_reporter_2_12_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_zipkin_reporter2_zipkin_reporter_brave_2_13_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_zipkin_reporter2_zipkin_reporter_metrics_micrometer_2_12_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_zipkin_reporter2_zipkin_reporter_spring_beans_2_12_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_zipkin_reporter2_zipkin_sender_okhttp3_2_12_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_zipkin_zipkin2_zipkin_2_19_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hdrhistogram_HdrHistogram_2_1_9.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_latencyutils_LatencyUtils_2_0_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/toutiao/zipkin/TraceDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/toutiao/zipkin/TraceDemoTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/heima_toutiao_war_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/heima_toutiao_war_exploded.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__log4j_log4j_1_2_17.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_log4j12_1_7_26.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/toutiao/alg/MaxSubSetMethodTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/toutiao/alg/MaxSubSetMethodTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/heima_toutiao.iml" beforeDir="false" afterPath="$PROJECT_DIR$/heima_toutiao.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/toutiao/common/AuxUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/toutiao/common/AuxUtils.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -15,10 +37,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/toutiao/config/ZipkinConfig.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/toutiao/zipkin/TraceDemo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="924">
-              <caret line="67" column="15" selection-start-line="67" selection-start-column="15" selection-end-line="67" selection-end-column="15" />
+            <state relative-caret-position="329">
+              <caret line="105" column="12" selection-start-line="105" selection-start-column="12" selection-end-line="105" selection-end-column="12" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -27,62 +49,72 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/io/zipkin/brave/brave-core/3.16.0/brave-core-3.16.0-sources.jar!/com/github/kristofa/brave/Brave.java">
+        <entry file="jar://$MAVEN_REPOSITORY$/io/zipkin/brave/brave/5.6.6/brave-5.6.6-sources.jar!/brave/Tracer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="47" column="46" selection-start-line="47" selection-start-column="46" selection-end-line="47" selection-end-column="46" />
+            <state relative-caret-position="179">
+              <caret line="478" column="20" selection-start-line="478" selection-start-column="20" selection-end-line="478" selection-end-column="20" />
+              <folding>
+                <element signature="e#5499#5500#0" expanded="true" />
+                <element signature="e#5541#5542#0" expanded="true" />
+                <element signature="e#18836#18837#0" expanded="true" />
+                <element signature="e#18890#18891#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/toutiao/alg/MaxSubSetMethod.java">
+        <entry file="jar://$MAVEN_REPOSITORY$/io/zipkin/brave/brave/5.6.6/brave-5.6.6-sources.jar!/brave/propagation/ThreadLocalCurrentTraceContext.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="131">
-              <caret line="17" column="38" selection-start-line="17" selection-start-column="38" selection-end-line="17" selection-end-column="38" />
+            <state relative-caret-position="323">
+              <caret line="76" column="25" selection-start-line="76" selection-start-column="25" selection-end-line="76" selection-end-column="25" />
               <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="e#2781#2782#0" expanded="true" />
+                <element signature="e#2809#2810#0" expanded="true" />
+                <element signature="e#3041#3042#0" expanded="true" />
+                <element signature="e#3078#3079#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/io/zipkin/brave/brave/5.6.6/brave-5.6.6-sources.jar!/brave/Tracing.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="232">
+              <caret line="80" column="44" selection-start-line="80" selection-start-column="44" selection-end-line="80" selection-end-column="44" />
+              <folding>
+                <element signature="e#1937#1938#0" expanded="true" />
+                <element signature="e#1967#1968#0" expanded="true" />
+                <element signature="e#16398#16399#0" expanded="true" />
+                <element signature="e#16438#16439#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/io/zipkin/brave/brave/5.6.6/brave-5.6.6-sources.jar!/brave/propagation/CurrentTraceContext.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="225">
+              <caret line="67" column="24" selection-start-line="67" selection-start-column="24" selection-end-line="67" selection-end-column="24" />
+              <folding>
+                <element signature="e#8077#8078#0" expanded="true" />
+                <element signature="e#8156#8157#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/java/toutiao/alg/MaxSubSetMethodTest.java">
+        <entry file="file://$PROJECT_DIR$/src/test/java/toutiao/zipkin/TraceDemoTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="6710">
-              <caret line="305" column="31" selection-start-line="305" selection-start-column="31" selection-end-line="305" selection-end-column="31" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/4.3.8.RELEASE/spring-web-4.3.8.RELEASE-sources.jar!/org/springframework/http/client/support/InterceptingHttpAccessor.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="462">
-              <caret line="41" column="52" selection-start-line="41" selection-start-column="52" selection-end-line="41" selection-end-column="52" />
+            <state relative-caret-position="396">
+              <caret line="24" column="25" lean-forward="true" selection-start-line="24" selection-start-column="25" selection-end-line="24" selection-end-column="25" />
               <folding>
-                <element signature="e#1650#1651#0" expanded="true" />
-                <element signature="e#1689#1690#0" expanded="true" />
+                <element signature="e#249#250#0" expanded="true" />
+                <element signature="e#292#293#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/4.3.8.RELEASE/spring-web-4.3.8.RELEASE-sources.jar!/org/springframework/web/client/RestTemplate.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1540">
-              <caret line="121" column="13" selection-start-line="121" selection-start-column="13" selection-end-line="121" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -99,7 +131,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>debug</find>
       <find>8055</find>
       <find>doDis</find>
       <find>mybatis-generator-core</find>
@@ -118,9 +149,22 @@
       <find>addI</find>
       <find>brave</find>
       <find>netty-all</find>
+      <find>{project.version</find>
+      <find>project.version</find>
+      <find>project.groupId</find>
+      <find>zipkin-reporter.version</find>
+      <find>zipkin</find>
+      <find>io.zipkin.reporter2</find>
+      <find>slf4j-log4j12</find>
+      <find>logba</find>
+      <find>report</find>
+      <find>report(</find>
+      <find>Scope</find>
+      <find>next</find>
     </findStrings>
     <replaceStrings>
       <replace>public</replace>
+      <replace>brave.project.groupId</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -150,7 +194,6 @@
         <option value="$PROJECT_DIR$/src/test/java/toutiao/dao/ArticleHomeMapperTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/toutiao/common/FastFdsToolTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/toutiao/common/FastFdsTool.java" />
-        <option value="$PROJECT_DIR$/src/main/java/toutiao/common/AuxUtils.java" />
         <option value="$PROJECT_DIR$/src/test/java/toutiao/common/FastDfsClientTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/toutiao/common/FastDfsClient.java" />
         <option value="$PROJECT_DIR$/src/main/java/toutiao/filter/MyCorsFilter.java" />
@@ -164,12 +207,15 @@
         <option value="$PROJECT_DIR$/docs/db.sql" />
         <option value="$PROJECT_DIR$/src/main/java/toutiao/config/MyWebMvcConfigurer.java" />
         <option value="$PROJECT_DIR$/src/main/java/toutiao/config/WebMvcConfig.java" />
-        <option value="$USER_HOME$/.m2/settings.xml" />
         <option value="$PROJECT_DIR$/src/main/java/toutiao/config/DaoConfig.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/toutiao/config/ZipkinConfig.java" />
         <option value="$PROJECT_DIR$/src/main/java/toutiao/alg/MaxSubSetMethod.java" />
         <option value="$PROJECT_DIR$/src/test/java/toutiao/alg/MaxSubSetMethodTest.java" />
+        <option value="$USER_HOME$/.m2/settings.xml" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/toutiao/common/AuxUtils.java" />
+        <option value="$PROJECT_DIR$/src/test/java/toutiao/zipkin/TraceDemoTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/toutiao/zipkin/TraceDemo.java" />
       </list>
     </option>
   </component>
@@ -185,22 +231,7 @@
       <expand>
         <path>
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="Profiles" type="6783ec58:MavenProjectsStructure$ProfilesNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
           <item name="heima_toutiao Maven Webapp" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="heima_toutiao Maven Webapp" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-          <item name="Plugins" type="7aea1407:MavenProjectsStructure$PluginsNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="heima_toutiao Maven Webapp" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-          <item name="Plugins" type="7aea1407:MavenProjectsStructure$PluginsNode" />
-          <item name="mybatis-generator" type="36feed69:MavenProjectsStructure$PluginNode" />
         </path>
         <path>
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
@@ -211,11 +242,14 @@
       <select />
     </treeState>
   </component>
+  <component name="MavenRunner">
+    <option name="skipTests" value="true" />
+  </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="1493" />
-    <option name="y" value="66" />
-    <option name="width" value="1713" />
-    <option name="height" value="1008" />
+    <option name="x" value="1397" />
+    <option name="y" value="23" />
+    <option name="width" value="1766" />
+    <option name="height" value="1009" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -224,6 +258,7 @@
     </navigator>
     <panes>
       <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -251,141 +286,22 @@
               <item name="heima_toutiao" type="b2602c69:ProjectViewProjectNode" />
               <item name="heima_toutiao" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="heima_toutiao" type="b2602c69:ProjectViewProjectNode" />
-              <item name="heima_toutiao" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="heima_toutiao" type="b2602c69:ProjectViewProjectNode" />
-              <item name="heima_toutiao" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="toutiao" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="heima_toutiao" type="b2602c69:ProjectViewProjectNode" />
-              <item name="heima_toutiao" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="toutiao" type="462c0819:PsiDirectoryNode" />
-              <item name="alg" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="heima_toutiao" type="b2602c69:ProjectViewProjectNode" />
-              <item name="heima_toutiao" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="toutiao" type="462c0819:PsiDirectoryNode" />
-              <item name="common" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="heima_toutiao" type="b2602c69:ProjectViewProjectNode" />
-              <item name="heima_toutiao" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="toutiao" type="462c0819:PsiDirectoryNode" />
-              <item name="config" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="heima_toutiao" type="b2602c69:ProjectViewProjectNode" />
-              <item name="heima_toutiao" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="toutiao" type="462c0819:PsiDirectoryNode" />
-              <item name="controller" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="heima_toutiao" type="b2602c69:ProjectViewProjectNode" />
-              <item name="heima_toutiao" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="heima_toutiao" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
-            <path>
-              <item name="heima_toutiao" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: com.lmax:disruptor:3.4.1" type="70bed36:NamedLibraryElementNode" />
-            </path>
-            <path>
-              <item name="heima_toutiao" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: com.lmax:disruptor:3.4.1" type="70bed36:NamedLibraryElementNode" />
-              <item name="disruptor-3.4.1.jar" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="heima_toutiao" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: com.lmax:disruptor:3.4.1" type="70bed36:NamedLibraryElementNode" />
-              <item name="disruptor-3.4.1.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="disruptor" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="heima_toutiao" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: com.lmax:disruptor:3.4.1" type="70bed36:NamedLibraryElementNode" />
-              <item name="disruptor-3.4.1.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="disruptor" type="462c0819:PsiDirectoryNode" />
-              <item name="dsl" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="heima_toutiao" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: org.springframework:spring-web:4.3.8.RELEASE" type="70bed36:NamedLibraryElementNode" />
-            </path>
-            <path>
-              <item name="heima_toutiao" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: org.springframework:spring-web:4.3.8.RELEASE" type="70bed36:NamedLibraryElementNode" />
-              <item name="spring-web-4.3.8.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="heima_toutiao" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: org.springframework:spring-web:4.3.8.RELEASE" type="70bed36:NamedLibraryElementNode" />
-              <item name="spring-web-4.3.8.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="springframework" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="heima_toutiao" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: org.springframework:spring-web:4.3.8.RELEASE" type="70bed36:NamedLibraryElementNode" />
-              <item name="spring-web-4.3.8.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="springframework" type="462c0819:PsiDirectoryNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="heima_toutiao" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: org.springframework:spring-web:4.3.8.RELEASE" type="70bed36:NamedLibraryElementNode" />
-              <item name="spring-web-4.3.8.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="springframework" type="462c0819:PsiDirectoryNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
-              <item name="client" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1612603234577" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1612777482724" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -398,17 +314,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="toutiao.zipkin" />
       <recent name="toutiao.alg" />
       <recent name="toutiao.common" />
       <recent name="toutiao.dao" />
       <recent name="toutiao.controller" />
-      <recent name="toutiao.config" />
-    </key>
-    <key name="CreateClassDialog.RecentsKey">
-      <recent name="toutiao.config" />
-    </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="toutiao.filter" />
     </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
@@ -419,6 +329,12 @@
       <recent name="$PROJECT_DIR$/src/main/resources/dao" />
       <recent name="$PROJECT_DIR$/src/test/resources" />
       <recent name="$PROJECT_DIR$/src/main/resources" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="toutiao.filter" />
+    </key>
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="toutiao.config" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -433,23 +349,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.MaxSubSetMethodTest.findMaxSubSet">
-    <configuration name="AlgMethodTest.array" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="heima_toutiao" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="toutiao.alg.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="toutiao.alg" />
-      <option name="MAIN_CLASS_NAME" value="toutiao.alg.AlgMethodTest" />
-      <option name="METHOD_NAME" value="array" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.TraceDemoTest.traceB">
     <configuration name="AlgMethodTest.kettle" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="heima_toutiao" />
       <extension name="coverage">
@@ -466,38 +366,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FastDfsClientTest.download" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="heima_toutiao" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="toutiao.common.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="toutiao.common" />
-      <option name="MAIN_CLASS_NAME" value="toutiao.common.FastDfsClientTest" />
-      <option name="METHOD_NAME" value="download" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="FastDfsClientTest.upload" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="heima_toutiao" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="toutiao.common.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="toutiao.common" />
-      <option name="MAIN_CLASS_NAME" value="toutiao.common.FastDfsClientTest" />
-      <option name="METHOD_NAME" value="upload" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="MaxSubSetMethodTest.findMaxSubSet" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="heima_toutiao" />
       <extension name="coverage">
@@ -509,6 +377,53 @@
       <option name="PACKAGE_NAME" value="toutiao.alg" />
       <option name="MAIN_CLASS_NAME" value="toutiao.alg.MaxSubSetMethodTest" />
       <option name="METHOD_NAME" value="findMaxSubSet" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TraceDemoTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="heima_toutiao" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="toutiao.zipkin.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="toutiao.zipkin" />
+      <option name="MAIN_CLASS_NAME" value="toutiao.zipkin.TraceDemoTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TraceDemoTest.trace" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="heima_toutiao" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="toutiao.zipkin.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="toutiao.zipkin" />
+      <option name="MAIN_CLASS_NAME" value="toutiao.zipkin.TraceDemoTest" />
+      <option name="METHOD_NAME" value="trace" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TraceDemoTest.traceB" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="heima_toutiao" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="toutiao.zipkin.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="toutiao.zipkin" />
+      <option name="MAIN_CLASS_NAME" value="toutiao.zipkin.TraceDemoTest" />
+      <option name="METHOD_NAME" value="traceB" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -544,20 +459,20 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="JUnit.FastDfsClientTest.upload" />
-      <item itemvalue="JUnit.FastDfsClientTest.download" />
       <item itemvalue="JUnit.AlgMethodTest.kettle" />
-      <item itemvalue="JUnit.AlgMethodTest.array" />
-      <item itemvalue="Maven.heima_toutiao_debug" />
       <item itemvalue="JUnit.MaxSubSetMethodTest.findMaxSubSet" />
+      <item itemvalue="Maven.heima_toutiao_debug" />
+      <item itemvalue="JUnit.TraceDemoTest.trace" />
+      <item itemvalue="JUnit.TraceDemoTest" />
+      <item itemvalue="JUnit.TraceDemoTest.traceB" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.TraceDemoTest.traceB" />
+        <item itemvalue="JUnit.TraceDemoTest" />
+        <item itemvalue="JUnit.TraceDemoTest.trace" />
         <item itemvalue="JUnit.MaxSubSetMethodTest.findMaxSubSet" />
         <item itemvalue="JUnit.AlgMethodTest.kettle" />
-        <item itemvalue="JUnit.AlgMethodTest.array" />
-        <item itemvalue="JUnit.FastDfsClientTest.upload" />
-        <item itemvalue="JUnit.FastDfsClientTest.download" />
       </list>
     </recent_temporary>
   </component>
@@ -586,50 +501,53 @@
       <workItem from="1612147748204" duration="3906000" />
       <workItem from="1612319591210" duration="694000" />
       <workItem from="1612405664323" duration="1782000" />
-      <workItem from="1612492271135" duration="4184000" />
+      <workItem from="1612492271135" duration="6167000" />
+      <workItem from="1612711296041" duration="2928000" />
+      <workItem from="1612718394879" duration="626000" />
+      <workItem from="1612751836110" duration="16588000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="AlgMethodTest_kettle - 2021.01.26 at 18h 33m 05s.xml">
-      <configuration name="AlgMethodTest.kettle" configurationId="JUnit" />
+    <history-entry file="TraceDemoTest - 2021.02.08 at 15h 22m 22s.xml">
+      <configuration name="TraceDemoTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="AlgMethodTest_kettle - 2021.01.26 at 18h 33m 26s.xml">
-      <configuration name="AlgMethodTest.kettle" configurationId="JUnit" />
+    <history-entry file="TraceDemoTest - 2021.02.08 at 15h 24m 20s.xml">
+      <configuration name="TraceDemoTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="AlgMethodTest_kettle - 2021.01.26 at 18h 39m 20s.xml">
-      <configuration name="AlgMethodTest.kettle" configurationId="JUnit" />
+    <history-entry file="TraceDemoTest - 2021.02.08 at 15h 27m 36s.xml">
+      <configuration name="TraceDemoTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="AlgMethodTest_kettle - 2021.01.26 at 18h 41m 36s.xml">
-      <configuration name="AlgMethodTest.kettle" configurationId="JUnit" />
+    <history-entry file="TraceDemoTest - 2021.02.08 at 16h 10m 02s.xml">
+      <configuration name="TraceDemoTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="AlgMethodTest_kettle - 2021.01.26 at 18h 42m 08s.xml">
-      <configuration name="AlgMethodTest.kettle" configurationId="JUnit" />
+    <history-entry file="TraceDemoTest_traceB - 2021.02.08 at 17h 10m 33s.xml">
+      <configuration name="TraceDemoTest.traceB" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="AlgMethodTest_kettle - 2021.01.26 at 18h 43m 52s.xml">
-      <configuration name="AlgMethodTest.kettle" configurationId="JUnit" />
+    <history-entry file="TraceDemoTest_traceB - 2021.02.08 at 17h 11m 54s.xml">
+      <configuration name="TraceDemoTest.traceB" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="AlgMethodTest_kettle - 2021.01.26 at 18h 44m 42s.xml">
-      <configuration name="AlgMethodTest.kettle" configurationId="JUnit" />
+    <history-entry file="TraceDemoTest_traceB - 2021.02.08 at 17h 17m 51s.xml">
+      <configuration name="TraceDemoTest.traceB" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="AlgMethodTest_kettle - 2021.01.26 at 20h 30m 56s.xml">
-      <configuration name="AlgMethodTest.kettle" configurationId="JUnit" />
+    <history-entry file="TraceDemoTest_traceB - 2021.02.08 at 17h 19m 50s.xml">
+      <configuration name="TraceDemoTest.traceB" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="AlgMethodTest_kettle - 2021.01.26 at 20h 31m 31s.xml">
-      <configuration name="AlgMethodTest.kettle" configurationId="JUnit" />
+    <history-entry file="TraceDemoTest_traceB - 2021.02.08 at 17h 36m 02s.xml">
+      <configuration name="TraceDemoTest.traceB" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MaxSubSetMethodTest_findMaxSubSet - 2021.02.05 at 22h 34m 49s.xml">
-      <configuration name="MaxSubSetMethodTest.findMaxSubSet" configurationId="JUnit" />
+    <history-entry file="TraceDemoTest_traceB - 2021.02.08 at 17h 40m 15s.xml">
+      <configuration name="TraceDemoTest.traceB" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="85346000" />
+    <option name="totallyTimeSpent" value="107471000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1493" y="66" width="1713" height="1008" extended-state="0" />
+    <frame x="1397" y="23" width="1766" height="1009" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18671454" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.13341068" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -637,17 +555,17 @@
       <window_info id="UI Designer" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info id="Web" order="7" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="0" weight="0.3286026" />
+      <window_info anchor="bottom" id="Messages" order="0" weight="0.32715377" />
       <window_info anchor="bottom" id="Spring" order="1" />
       <window_info anchor="bottom" id="Docker" order="2" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="3" side_tool="true" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="4" visible="true" weight="0.20851529" />
+      <window_info anchor="bottom" id="Terminal" order="4" weight="0.20065431" />
       <window_info anchor="bottom" id="Java Enterprise" order="5" weight="0.3290735" />
       <window_info anchor="bottom" id="Database Changes" order="6" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Message" order="8" />
-      <window_info anchor="bottom" id="Find" order="9" weight="0.19378239" />
-      <window_info anchor="bottom" id="Run" order="10" weight="0.2860262" />
+      <window_info anchor="bottom" id="Find" order="9" weight="0.19302072" />
+      <window_info active="true" anchor="bottom" id="Run" order="10" visible="true" weight="0.34678298" />
       <window_info anchor="bottom" id="Cvs" order="11" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="12" weight="0.4" />
       <window_info anchor="bottom" id="Debug" order="13" weight="0.41061756" />
@@ -655,7 +573,7 @@
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Maven" order="3" weight="0.32884616" />
+      <window_info anchor="right" id="Maven" order="3" weight="0.32714617" />
       <window_info anchor="right" id="Palette" order="4" />
       <window_info anchor="right" id="Capture Analysis" order="5" />
       <window_info anchor="right" id="CDI" order="6" />
@@ -838,390 +756,422 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/toutiao/alg/KettleState.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/io/zipkin/java/zipkin/1.16.2/zipkin-1.16.2-sources.jar!/zipkin/Span.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="880">
-          <caret line="48" column="95" selection-start-line="48" selection-start-column="95" selection-end-line="48" selection-end-column="95" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="244">
+          <caret line="46" column="19" selection-start-line="46" selection-start-column="19" selection-end-line="46" selection-end-column="19" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/docs/logs/kettle_solution.txt">
+    <entry file="jar://$MAVEN_REPOSITORY$/io/zipkin/reporter2/zipkin-reporter/2.12.0/zipkin-reporter-2.12.0.jar!/zipkin2/reporter/AsyncReporter.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="726">
-          <caret line="33" selection-start-line="33" selection-end-line="33" />
+        <state relative-caret-position="264">
+          <caret line="31" column="40" selection-start-line="31" selection-start-column="40" selection-end-line="31" selection-end-column="40" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/toutiao/alg/AlgMethod.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2376">
-          <caret line="117" column="17" selection-start-line="117" selection-start-column="17" selection-end-line="117" selection-end-column="17" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/docs/study.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="66">
-            <caret line="3" selection-start-line="3" selection-end-line="3" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/docs/db.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="499">
-          <caret line="79" selection-start-line="79" selection-end-line="79" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/io/zipkin/brave/brave-instrumentation-spring-webmvc/5.6.3/brave-instrumentation-spring-webmvc-5.6.3.jar!/brave/spring/webmvc/DelegatingTracingFilter.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="19" column="19" selection-start-line="19" selection-start-column="19" selection-end-line="19" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/io/zipkin/brave/brave-instrumentation-spring-webmvc/5.6.3/brave-instrumentation-spring-webmvc-5.6.3-sources.jar!/brave/spring/webmvc/SpanCustomizingHandlerInterceptor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="483">
-          <caret line="54" column="1" selection-start-line="54" selection-start-column="1" selection-end-line="54" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/io/zipkin/zipkin2/zipkin/2.12.7/zipkin-2.12.7.jar!/zipkin2/Span.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="25" column="19" selection-start-line="25" selection-start-column="19" selection-end-line="25" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/io/zipkin/zipkin2/zipkin/2.12.7/zipkin-2.12.7-sources.jar!/zipkin2/Span.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="22">
-          <caret line="61" column="19" selection-start-line="61" selection-start-column="19" selection-end-line="61" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/io/zipkin/brave/brave-instrumentation-spring-webmvc/5.6.3/brave-instrumentation-spring-webmvc-5.6.3-sources.jar!/brave/spring/webmvc/DelegatingTracingFilter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="26" column="11" selection-start-line="26" selection-start-column="11" selection-end-line="26" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/io/zipkin/reporter/zipkin-reporter/0.6.9/zipkin-reporter-0.6.9.jar!/zipkin/reporter/Reporter.class">
+    <entry file="jar://$MAVEN_REPOSITORY$/io/zipkin/zipkin2/zipkin/2.19.0/zipkin-2.19.0.jar!/zipkin2/codec/BytesEncoder.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="132">
           <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/io/zipkin/reporter2/zipkin-sender-okhttp3/2.8.2/zipkin-sender-okhttp3-2.8.2.jar!/zipkin2/reporter/okhttp3/OkHttpSender.class">
+    <entry file="jar://$MAVEN_REPOSITORY$/io/zipkin/zipkin2/zipkin/2.19.0/zipkin-2.19.0-sources.jar!/zipkin2/codec/SpanBytesEncoder.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="40" column="31" selection-start-line="40" selection-start-column="31" selection-end-line="40" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/io/zipkin/brave/brave-spring-web-servlet-interceptor/3.16.0/brave-spring-web-servlet-interceptor-3.16.0.jar!/com/github/kristofa/brave/spring/ServletHandlerInterceptor.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="28" column="13" selection-start-line="28" selection-start-column="13" selection-end-line="28" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/4.3.8.RELEASE/spring-webmvc-4.3.8.RELEASE-sources.jar!/org/springframework/web/servlet/config/annotation/InterceptorRegistry.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="219">
-          <caret line="43" column="35" selection-start-line="43" selection-start-column="35" selection-end-line="43" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/4.3.8.RELEASE/spring-web-4.3.8.RELEASE-sources.jar!/org/springframework/http/client/ClientHttpRequestInterceptor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="215">
-          <caret line="33" column="17" selection-start-line="33" selection-start-column="17" selection-end-line="33" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/io/zipkin/brave/brave-spring-resttemplate-interceptors/3.16.0/brave-spring-resttemplate-interceptors-3.16.0.jar!/com/github/kristofa/brave/spring/BraveClientHttpRequestInterceptor.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="25" column="74" selection-start-line="25" selection-start-column="74" selection-end-line="25" selection-end-column="74" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/springframework/web/servlet/config/annotation/MyDelegatingWebMvcConfiguration.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="251">
-          <caret line="45" column="17" selection-start-line="45" selection-start-column="17" selection-end-line="45" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/toutiao/config/MyWebMvcConfigurer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="212">
-          <caret line="32" selection-start-line="32" selection-end-line="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/io/zipkin/reporter/zipkin-sender-okhttp3/0.6.9/zipkin-sender-okhttp3-0.6.9.jar!/zipkin/reporter/okhttp3/OkHttpSender.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="35" column="31" selection-start-line="35" selection-start-column="31" selection-end-line="35" selection-end-column="31" />
-          <folding>
-            <element signature="e#1029#1030#0" expanded="true" />
-            <element signature="e#1088#1089#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/io/zipkin/brave/brave-core/3.16.0/brave-core-3.16.0.jar!/com/github/kristofa/brave/Brave.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$MAVEN_REPOSITORY$/io/zipkin/reporter/zipkin-reporter-parent/0.6.9/zipkin-reporter-parent-0.6.9.pom">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2992">
-          <caret line="136" column="42" selection-start-line="136" selection-start-column="42" selection-end-line="136" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/toutiao/config/WebMvcConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="11" column="62" selection-start-line="11" selection-start-column="62" selection-end-line="11" selection-end-column="62" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/.m2/settings.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="296">
-          <caret line="72" column="13" lean-forward="true" selection-start-line="72" selection-start-column="13" selection-end-line="72" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/toutiao/config/DaoConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/io/zipkin/reporter/zipkin-sender-okhttp3/0.6.9/zipkin-sender-okhttp3-0.6.9.jar!/META-INF/maven/io.zipkin.reporter/zipkin-sender-okhttp3/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="462">
-          <caret line="21" column="35" selection-start-line="21" selection-start-column="35" selection-end-line="21" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/io/zipkin/reporter/zipkin-sender-okhttp3/0.6.9/zipkin-sender-okhttp3-0.6.9-sources.jar!/zipkin/reporter/okhttp3/OkHttpSender.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="52" column="29" selection-start-line="52" selection-start-column="29" selection-end-line="52" selection-end-column="29" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/io/zipkin/reporter/zipkin-reporter/0.6.9/zipkin-reporter-0.6.9-sources.jar!/zipkin/reporter/Callback.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
-          <caret line="23" column="17" selection-start-line="23" selection-start-column="17" selection-end-line="23" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/io/zipkin/reporter/zipkin-reporter/0.6.9/zipkin-reporter-0.6.9-sources.jar!/zipkin/reporter/Sender.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="22">
-          <caret line="45" column="17" selection-start-line="45" selection-start-column="17" selection-end-line="45" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/io/zipkin/java/zipkin/1.16.2/zipkin-1.16.2.jar!/zipkin/Span.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="227">
-          <caret line="31" column="34" selection-start-line="31" selection-start-column="34" selection-end-line="31" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/io/zipkin/java/zipkin/1.16.2/zipkin-1.16.2-sources.jar!/zipkin/Annotation.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="25" column="19" selection-start-line="25" selection-start-column="19" selection-end-line="25" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/io/zipkin/java/zipkin/1.16.2/zipkin-1.16.2-sources.jar!/zipkin/Span.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="219">
-          <caret line="146" column="27" lean-forward="true" selection-start-line="146" selection-start-column="27" selection-end-line="146" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/io/zipkin/reporter/zipkin-reporter/0.6.9/zipkin-reporter-0.6.9-sources.jar!/zipkin/reporter/Reporter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="484">
-          <caret line="36" column="10" selection-start-line="36" selection-start-column="10" selection-end-line="36" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/io/zipkin/brave/brave-core/3.16.0/brave-core-3.16.0-sources.jar!/com/github/kristofa/brave/AutoValue_ServerTracer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="9" column="12" selection-start-line="9" selection-start-column="12" selection-end-line="9" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/io/zipkin/brave/brave-core/3.16.0/brave-core-3.16.0-sources.jar!/com/github/kristofa/brave/ClientTracer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="440">
-          <caret line="27" column="22" selection-start-line="27" selection-start-column="22" selection-end-line="27" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/io/zipkin/reporter/zipkin-reporter/0.6.9/zipkin-reporter-0.6.9-sources.jar!/zipkin/reporter/AsyncReporter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3146">
-          <caret line="170" column="21" selection-start-line="170" selection-start-column="21" selection-end-line="170" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/io/zipkin/reporter/zipkin-reporter/0.6.9/zipkin-reporter-0.6.9-sources.jar!/zipkin/reporter/ByteBoundedQueue.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="24" column="12" selection-start-line="24" selection-start-column="12" selection-end-line="24" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/io/zipkin/reporter/zipkin-reporter/0.6.9/zipkin-reporter-0.6.9-sources.jar!/zipkin/reporter/ReporterMetrics.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1496">
-          <caret line="80" column="7" selection-start-line="80" selection-start-column="7" selection-end-line="80" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/io/zipkin/brave/brave-core/3.16.0/brave-core-3.16.0-sources.jar!/com/github/kristofa/brave/SpanCollectorReporterAdapter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="990">
-          <caret line="56" column="3" selection-start-line="56" selection-start-column="3" selection-end-line="56" selection-end-column="3" />
-          <folding>
-            <element signature="e#531#532#0" expanded="true" />
-            <element signature="e#597#598#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/io/zipkin/brave/brave-core/3.16.0/brave-core-3.16.0-sources.jar!/com/github/kristofa/brave/SpanCollector.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="440">
-          <caret line="20" column="12" selection-start-line="20" selection-start-column="12" selection-end-line="20" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/io/zipkin/brave/brave-core/3.16.0/brave-core-3.16.0-sources.jar!/com/github/kristofa/brave/ServerTracer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="440">
-          <caret line="28" column="30" selection-start-line="28" selection-start-column="30" selection-end-line="28" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/io/zipkin/brave/brave-core/3.16.0/brave-core-3.16.0-sources.jar!/com/twitter/zipkin/gen/Annotation.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="14" column="27" selection-start-line="14" selection-start-column="27" selection-end-line="14" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/io/zipkin/brave/brave-spring-web-servlet-interceptor/3.16.0/brave-spring-web-servlet-interceptor-3.16.0-sources.jar!/com/github/kristofa/brave/spring/ServletHandlerInterceptor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-58">
-          <caret line="25" column="13" selection-start-line="25" selection-start-column="13" selection-end-line="25" selection-end-column="13" />
+        <state relative-caret-position="244">
+          <caret line="81" column="2" selection-start-line="81" selection-start-column="2" selection-end-line="81" selection-end-column="2" />
         </state>
       </provider>
     </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/com/lmax/disruptor/3.4.1/disruptor-3.4.1-sources.jar!/com/lmax/disruptor/dsl/Disruptor.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="506">
+        <state relative-caret-position="203">
           <caret line="58" column="13" selection-start-line="58" selection-start-column="13" selection-end-line="58" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/lmax/disruptor/3.4.1/disruptor-3.4.1-sources.jar!/com/lmax/disruptor/dsl/EventProcessorInfo.java">
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_231.jdk/Contents/Home/src.zip!/java/io/Closeable.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="223">
-          <caret line="31" column="6" selection-start-line="31" selection-start-column="6" selection-end-line="31" selection-end-column="6" />
+        <state relative-caret-position="244">
+          <caret line="36" column="17" selection-start-line="36" selection-start-column="17" selection-end-line="36" selection-end-column="17" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/toutiao/config/ZipkinConfig.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/io/zipkin/reporter2/zipkin-reporter-brave/2.13.2/zipkin-reporter-brave-2.13.2.jar!/zipkin2/reporter/brave/ZipkinSpanHandler.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="924">
-          <caret line="67" column="15" selection-start-line="67" selection-start-column="15" selection-end-line="67" selection-end-column="15" />
+        <state relative-caret-position="132">
+          <caret line="23" column="19" selection-start-line="23" selection-start-column="19" selection-end-line="23" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/zipkin/reporter2/zipkin-reporter-brave/2.13.2/zipkin-reporter-brave-2.13.2.jar!/META-INF/MANIFEST.MF">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/zipkin/reporter2/zipkin-reporter-brave/2.13.2/zipkin-reporter-brave-2.13.2-sources.jar!/zipkin2/reporter/brave/ZipkinSpanHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="493">
+          <caret line="42" column="19" selection-start-line="42" selection-start-column="19" selection-end-line="42" selection-end-column="19" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tree.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="163" column="36" selection-start-line="163" selection-start-column="13" selection-end-line="163" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$MAVEN_REPOSITORY$/ch/qos/logback/logback-classic/1.2.3/logback-classic-1.2.3.pom">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1682" />
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/zipkin/brave/brave/5.6.6/brave-5.6.6-sources.jar!/brave/Clock.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="352">
+          <caret line="28" column="23" selection-start-line="28" selection-start-column="23" selection-end-line="28" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/zipkin/brave/brave/5.6.6/brave-5.6.6-sources.jar!/brave/RealSpan.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="208">
+          <caret line="27" column="22" selection-start-line="27" selection-start-column="22" selection-end-line="27" selection-end-column="22" />
+          <folding>
+            <element signature="e#3796#3797#0" expanded="true" />
+            <element signature="e#3845#3846#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/zipkin/brave/brave/5.6.6/brave-5.6.6-sources.jar!/brave/handler/FinishedSpanHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="66" column="28" lean-forward="true" selection-start-line="66" selection-start-column="28" selection-end-line="66" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/zipkin/brave/brave/5.6.6/brave-5.6.6-sources.jar!/brave/handler/MutableSpan.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="29" column="19" selection-start-line="29" selection-start-column="19" selection-end-line="29" selection-end-column="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#3513#3514#0" expanded="true" />
+            <element signature="e#3561#3562#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/zipkin/reporter2/zipkin-reporter/2.12.0/zipkin-reporter-2.12.0-sources.jar!/zipkin2/reporter/Reporter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="539">
+          <caret line="49" column="7" selection-start-line="49" selection-start-column="7" selection-end-line="49" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/zipkin/zipkin2/zipkin/2.19.0/zipkin-2.19.0-sources.jar!/zipkin2/Span.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="660">
+          <caret line="62" column="19" selection-start-line="62" selection-start-column="19" selection-end-line="62" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/zipkin/reporter2/zipkin-reporter/2.12.0/zipkin-reporter-2.12.0.jar!/zipkin2/reporter/Reporter.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#647#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/zipkin/brave/brave/5.6.6/brave-5.6.6-sources.jar!/brave/internal/handler/ZipkinFinishedSpanHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="451">
+          <caret line="43" column="23" selection-start-line="43" selection-start-column="17" selection-end-line="43" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/zipkin/reporter2/zipkin-reporter/2.12.0/zipkin-reporter-2.12.0-sources.jar!/zipkin2/reporter/BufferNextMessage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="22" column="34" selection-start-line="22" selection-start-column="34" selection-end-line="22" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/zipkin/reporter2/zipkin-reporter-metrics-micrometer/2.12.0/zipkin-reporter-metrics-micrometer-2.12.0.jar!/zipkin2/reporter/metrics/micrometer/MicrometerReporterMetrics.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="880">
+          <caret line="51" column="16" selection-start-line="51" selection-start-column="16" selection-end-line="51" selection-end-column="16" />
+          <folding>
+            <element signature="e#2887#2888#0" expanded="true" />
+            <element signature="e#2928#2929#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="6710">
-          <caret line="305" column="31" selection-start-line="305" selection-start-column="31" selection-end-line="305" selection-end-column="31" />
+        <state relative-caret-position="390">
+          <caret line="427" selection-start-line="427" selection-end-line="427" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/4.3.8.RELEASE/spring-web-4.3.8.RELEASE-sources.jar!/org/springframework/http/client/support/InterceptingHttpAccessor.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/io/zipkin/brave/brave/5.6.6/brave-5.6.6-sources.jar!/brave/internal/handler/MutableSpanConverter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="462">
-          <caret line="41" column="52" selection-start-line="41" selection-start-column="52" selection-end-line="41" selection-end-column="52" />
+        <state relative-caret-position="238">
+          <caret line="44" column="7" selection-start-line="44" selection-start-column="7" selection-end-line="44" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/micrometer/micrometer-core/1.1.8/micrometer-core-1.1.8.jar!/io/micrometer/core/instrument/Counter.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="13" column="17" selection-start-line="13" selection-start-column="17" selection-end-line="13" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/zipkin/reporter2/zipkin-reporter/2.12.0/zipkin-reporter-2.12.0-sources.jar!/zipkin2/reporter/InMemoryReporterMetrics.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="236">
+          <caret line="36" column="24" selection-start-line="36" selection-start-column="24" selection-end-line="36" selection-end-column="24" />
           <folding>
-            <element signature="e#1650#1651#0" expanded="true" />
-            <element signature="e#1689#1690#0" expanded="true" />
+            <element signature="e#1259#1260#0" expanded="true" />
+            <element signature="e#1301#1302#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/4.3.8.RELEASE/spring-web-4.3.8.RELEASE-sources.jar!/org/springframework/web/client/RestTemplate.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/io/zipkin/reporter2/zipkin-reporter-metrics-micrometer/2.12.0/zipkin-reporter-metrics-micrometer-2.12.0-sources.jar!/zipkin2/reporter/metrics/micrometer/MicrometerReporterMetrics.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1540">
-          <caret line="121" column="13" selection-start-line="121" selection-start-column="13" selection-end-line="121" selection-end-column="13" />
+        <state relative-caret-position="228">
+          <caret line="35" column="11" lean-forward="true" selection-start-line="35" selection-start-column="11" selection-end-line="35" selection-end-column="11" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#3743#3744#0" expanded="true" />
+            <element signature="e#3773#3774#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/io/zipkin/brave/brave-core/3.16.0/brave-core-3.16.0-sources.jar!/com/github/kristofa/brave/Brave.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/io/micrometer/micrometer-core/1.1.8/micrometer-core-1.1.8-sources.jar!/io/micrometer/core/instrument/Meter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
+        <state relative-caret-position="220">
+          <caret line="38" column="17" selection-start-line="38" selection-start-column="17" selection-end-line="38" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/micrometer/micrometer-core/1.1.8/micrometer-core-1.1.8-sources.jar!/io/micrometer/core/instrument/Counter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="148">
+          <caret line="23" column="65" lean-forward="true" selection-start-line="23" selection-start-column="65" selection-end-line="23" selection-end-column="65" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_231.jdk/Contents/Home/src.zip!/java/util/Collections.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="236">
+          <caret line="4789" column="30" selection-start-line="4789" selection-start-column="30" selection-end-line="4789" selection-end-column="30" />
+          <folding>
+            <element signature="e#186812#186813#0" expanded="true" />
+            <element signature="e#186857#186858#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/micrometer/micrometer-core/1.1.8/micrometer-core-1.1.8-sources.jar!/io/micrometer/core/instrument/Gauge.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="506">
+          <caret line="43" column="5" lean-forward="true" selection-start-line="43" selection-start-column="5" selection-end-line="43" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/zipkin/reporter2/zipkin-reporter/2.12.0/zipkin-reporter-2.12.0-sources.jar!/zipkin2/reporter/ReporterMetrics.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="20" column="13" lean-forward="true" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/zipkin/reporter2/zipkin-reporter/2.12.0/zipkin-reporter-2.12.0-sources.jar!/zipkin2/reporter/ByteBoundedQueue.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="24" column="51" selection-start-line="24" selection-start-column="51" selection-end-line="24" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/zipkin/zipkin2/zipkin/2.19.0/zipkin-2.19.0-sources.jar!/zipkin2/codec/Encoding.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="19" column="12" selection-start-line="19" selection-start-column="12" selection-end-line="19" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/zipkin/zipkin2/zipkin/2.19.0/zipkin-2.19.0-sources.jar!/zipkin2/codec/BytesEncoder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="21" column="8" selection-start-line="21" selection-start-column="8" selection-end-line="21" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/zipkin/zipkin2/zipkin/2.19.0/zipkin-2.19.0-sources.jar!/zipkin2/Component.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="236">
+          <caret line="25" column="22" selection-start-line="25" selection-start-column="22" selection-end-line="25" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/zipkin/reporter2/zipkin-reporter/2.12.0/zipkin-reporter-2.12.0-sources.jar!/zipkin2/reporter/Sender.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="236">
+          <caret line="45" column="43" lean-forward="true" selection-start-line="45" selection-start-column="43" selection-end-line="45" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/zipkin/reporter2/zipkin-reporter/2.12.0/zipkin-reporter-2.12.0-sources.jar!/zipkin2/reporter/AsyncReporter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="236">
+          <caret line="185" column="32" selection-start-line="185" selection-start-column="32" selection-end-line="185" selection-end-column="32" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#2700#2701#0" expanded="true" />
+            <element signature="e#2744#2745#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_231.jdk/Contents/Home/src.zip!/java/lang/Thread.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="441">
+          <caret line="300" column="30" selection-start-line="300" selection-start-column="30" selection-end-line="300" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/toutiao/common/AuxUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="484">
+          <caret line="30" column="42" selection-start-line="30" selection-start-column="42" selection-end-line="30" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/zipkin/brave/brave/5.6.6/brave-5.6.6-sources.jar!/brave/ScopedSpan.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="40" column="22" selection-start-line="40" selection-start-column="22" selection-end-line="40" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/zipkin/brave/brave/5.6.6/brave-5.6.6-sources.jar!/brave/propagation/Propagation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="227">
+          <caret line="38" column="26" lean-forward="true" selection-start-line="38" selection-start-column="26" selection-end-line="38" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/zipkin/brave/brave/5.6.6/brave-5.6.6-sources.jar!/brave/propagation/B3Propagation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="22" column="80" selection-start-line="22" selection-start-column="23" selection-end-line="22" selection-end-column="80" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/zipkin/brave/brave/5.6.6/brave-5.6.6-sources.jar!/brave/SpanCustomizer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="232">
+          <caret line="36" column="17" selection-start-line="36" selection-start-column="17" selection-end-line="36" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/zipkin/brave/brave/5.6.6/brave-5.6.6-sources.jar!/brave/Span.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="232">
           <caret line="47" column="46" selection-start-line="47" selection-start-column="46" selection-end-line="47" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/toutiao/alg/MaxSubSetMethod.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="131">
-          <caret line="17" column="38" selection-start-line="17" selection-start-column="38" selection-end-line="17" selection-end-column="38" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/toutiao/alg/MaxSubSetMethodTest.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/io/zipkin/brave/brave/5.6.6/brave-5.6.6-sources.jar!/brave/propagation/TraceContext.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
+        <state relative-caret-position="330">
+          <caret line="44" column="19" selection-start-line="44" selection-start-column="19" selection-end-line="44" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/zipkin/brave/brave/5.6.6/brave-5.6.6-sources.jar!/brave/propagation/CurrentTraceContext.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="67" column="24" selection-start-line="67" selection-start-column="24" selection-end-line="67" selection-end-column="24" />
+          <folding>
+            <element signature="e#8077#8078#0" expanded="true" />
+            <element signature="e#8156#8157#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/zipkin/brave/brave/5.6.6/brave-5.6.6-sources.jar!/brave/propagation/ThreadLocalCurrentTraceContext.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="76" column="25" selection-start-line="76" selection-start-column="25" selection-end-line="76" selection-end-column="25" />
+          <folding>
+            <element signature="e#2781#2782#0" expanded="true" />
+            <element signature="e#2809#2810#0" expanded="true" />
+            <element signature="e#3041#3042#0" expanded="true" />
+            <element signature="e#3078#3079#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/zipkin/brave/brave/5.6.6/brave-5.6.6-sources.jar!/brave/Tracing.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="232">
+          <caret line="80" column="44" selection-start-line="80" selection-start-column="44" selection-end-line="80" selection-end-column="44" />
+          <folding>
+            <element signature="e#1937#1938#0" expanded="true" />
+            <element signature="e#1967#1968#0" expanded="true" />
+            <element signature="e#16398#16399#0" expanded="true" />
+            <element signature="e#16438#16439#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/zipkin/brave/brave/5.6.6/brave-5.6.6-sources.jar!/brave/Tracer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="179">
+          <caret line="478" column="20" selection-start-line="478" selection-start-column="20" selection-end-line="478" selection-end-column="20" />
+          <folding>
+            <element signature="e#5499#5500#0" expanded="true" />
+            <element signature="e#5541#5542#0" expanded="true" />
+            <element signature="e#18836#18837#0" expanded="true" />
+            <element signature="e#18890#18891#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/toutiao/zipkin/TraceDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="329">
+          <caret line="105" column="12" selection-start-line="105" selection-start-column="12" selection-end-line="105" selection-end-column="12" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/toutiao/zipkin/TraceDemoTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="24" column="25" lean-forward="true" selection-start-line="24" selection-start-column="25" selection-end-line="24" selection-end-column="25" />
+          <folding>
+            <element signature="e#249#250#0" expanded="true" />
+            <element signature="e#292#293#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

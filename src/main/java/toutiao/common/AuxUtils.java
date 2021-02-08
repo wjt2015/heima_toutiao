@@ -24,4 +24,14 @@ public class AuxUtils {
         log.info("sumStr=\n{}", sumStr);
         return result;
     }
+
+    public static void sleep(final long durationMillis) {
+        try {
+            Thread.sleep(durationMillis);
+        } catch (InterruptedException e) {
+            log.error("interrupted while sleeping!", e);
+        }
+
+
+    }
 }
