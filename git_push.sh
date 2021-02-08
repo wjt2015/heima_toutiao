@@ -1,6 +1,6 @@
 #!/bin/sh
 echo "argc=" $#
-if ($# >= 1);then
+if ($# > 0);then
 git add -A;git coommit -m '$1';git push
 else
 git add -A;git commit -m 'update';git push
