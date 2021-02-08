@@ -1,4 +1,5 @@
 #!/bin/sh
+echo "argc=" $#
 if ($# >= 1);then
 git add -A;git coommit -m '$1';git push
 else
