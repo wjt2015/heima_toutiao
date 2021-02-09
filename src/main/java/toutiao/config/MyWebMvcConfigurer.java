@@ -28,8 +28,10 @@ import java.util.List;
 @Configuration
 public class MyWebMvcConfigurer implements WebMvcConfigurer {
 
+/*
     @Resource
     private ServletHandlerInterceptor servletHandlerInterceptor;
+*/
 
     @Override
     public void configurePathMatch(PathMatchConfigurer configurer) {
