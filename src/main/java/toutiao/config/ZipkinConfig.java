@@ -40,6 +40,7 @@ import java.util.List;
  * http://www.spring4all.com/article/1079
  * ]
  */
+
 @Slf4j
 @Configuration
 @Import(value = {BraveClientHttpRequestInterceptor.class, ServletHandlerInterceptor.class})
