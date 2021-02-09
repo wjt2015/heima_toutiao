@@ -9,7 +9,7 @@ import toutiao.controller.HomeController;
 
 @Slf4j
 @Configuration
-@Import(value = {MyDelegatingWebMvcConfiguration.class,ZipkinConfig.class})
+@Import(value = {MyDelegatingWebMvcConfiguration.class/*,ZipkinConfig.class*/})
 @ComponentScan(basePackageClasses = {HomeController.class})
 public class WebMvcConfig {
 
