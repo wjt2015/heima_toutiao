@@ -28,13 +28,14 @@ public class SpringWebTraceDemoTest {
                      .closeTimeout(1, TimeUnit.SECONDS).build(SpanBytesEncoder.JSON_V2);
              Tracing tracing = Tracing.newBuilder()
                      .spanReporter(spanAsyncReporter)
-                     .localServiceName("http_trace")
+                     .localServiceName("http_trace2")
                      .propagationFactory(ExtraFieldPropagation.newFactory(B3Propagation.FACTORY, "http_argv"))
                      .currentTraceContext(CurrentTraceContext.Default.create())
                      .build()) {
 
 
-            SpringWebTraceDemo.httpTrace(tracing,"https://www.jianshu.com/p/f177a5e2917f");
+            //SpringWebTraceDemo.httpTrace(tracing,"https://www.jianshu.com/p/f177a5e2917f");
+            SpringWebTraceDemo.httpTrace(tracing,"http://localhost:8055/toutiao/home.json");
 
         } catch (Exception e) {
             log.error("trace error!", e);

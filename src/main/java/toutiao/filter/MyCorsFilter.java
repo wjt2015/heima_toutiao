@@ -68,10 +68,10 @@ public class MyCorsFilter implements Filter {
         Enumeration<String> headerNames = httpServletRequest.getHeaderNames();
         while (headerNames.hasMoreElements()) {
             String headerName = headerNames.nextElement();
-            if (headerName.contains("b3")) {
-                String headerValue = httpServletRequest.getHeader(headerName);
-                log.info("uri={};header:{}=>{};", httpServletRequest.getRequestURI(), headerName, headerValue);
-            }
+            //if (headerName.contains("b3")) {
+            String headerValue = httpServletRequest.getHeader(headerName);
+            log.info("uri={};header:{}=>{};", httpServletRequest.getRequestURI(), headerName, headerValue);
+            //}
         }
 
     }
