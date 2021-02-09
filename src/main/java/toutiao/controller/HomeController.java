@@ -10,9 +10,13 @@ import toutiao.model.ApiResult;
 public class HomeController {
 
     @RequestMapping(value = "/home.json")
-    public ApiResult home(){
+    public ApiResult home() {
+        return new ApiResult(0, "ok", "home_success");
+    }
 
-        return new ApiResult(0,"ok","success");
+    @RequestMapping(value = "/query.json")
+    public ApiResult query() {
+        return new ApiResult(0, "ok", "query_success");
     }
 
 }

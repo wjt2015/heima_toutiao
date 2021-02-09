@@ -14,6 +14,7 @@ import javax.servlet.ServletResponse;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
+import java.util.Enumeration;
 
 /**
  * 跨域详解 been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource
@@ -48,6 +49,8 @@ public class MyCorsFilter implements Filter {
         HttpServletRequest httpServletRequest = (HttpServletRequest) request;
         HttpServletResponse httpServletResponse = (HttpServletResponse) response;
 
+        showHeaders(httpServletRequest);
+
         log.info("doFilter!requestUrl={};", httpServletRequest.getRequestURL());
         if (CorsUtils.isCorsRequest(httpServletRequest)) {
             httpServletResponse.setHeader("Access-Control-Allow-Origin", "*"); //  这里最好明确的写允许的域名
@@ -58,6 +61,18 @@ public class MyCorsFilter implements Filter {
 
         chain.doFilter(request, response);
         log.info("cors allow!requestURL={};method={};protocol={};elapsed={}ms;", httpServletRequest.getRequestURL(), httpServletRequest.getMethod(), httpServletRequest.getProtocol(), (System.currentTimeMillis() - start));
+
+    }
+
+    private void showHeaders(final HttpServletRequest httpServletRequest) {
+        Enumeration<String> headerNames = httpServletRequest.getHeaderNames();
+        while (headerNames.hasMoreElements()) {
+            String headerName = headerNames.nextElement();
+            if (headerName.contains("b3")) {
+                String headerValue = httpServletRequest.getHeader(headerName);
+                log.info("uri={};header:{}=>{};", httpServletRequest.getRequestURI(), headerName, headerValue);
+            }
+        }
 
     }
 
