@@ -30,7 +30,7 @@ public class SpringWebTraceDemo {
     public static void httpTrace(final Tracing tracing, final String queryUrl) {
         AsyncClientHttpRequestInterceptor asyncClientHttpRequestInterceptor = TracingAsyncClientHttpRequestInterceptor.create(tracing);
         //CloseableHttpAsyncClient;
-        try (CloseableHttpAsyncClient httpAsyncClient = HttpAsyncClients.createSystem();) {
+        try (CloseableHttpAsyncClient httpAsyncClient = HttpAsyncClients.createSystem()) {
 
             HttpComponentsAsyncClientHttpRequestFactory requestFactory = new HttpComponentsAsyncClientHttpRequestFactory(httpAsyncClient);
             requestFactory.setReadTimeout(1000);
@@ -54,6 +54,7 @@ public class SpringWebTraceDemo {
             ListenableFuture<ResponseEntity<String>> future = asyncRestTemplate.getForEntity(queryUrl, String.class);
             log.info("future={};", future);
             responseEntity = future.get(2, TimeUnit.SECONDS);
+
         } catch (Exception e) {
             log.error("get error!url={};", queryUrl, e);
         }
