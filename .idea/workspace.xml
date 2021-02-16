@@ -2,11 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b690adac-8259-42db-9bbd-069b0e9b9cb6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/toutiao/alg/PileGame2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/toutiao/alg/PileGame2Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/toutiao/alg/PileGameTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/toutiao/alg/KMP.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/toutiao/alg/KMPTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/toutiao/alg/PileGame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/toutiao/alg/PileGame.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -20,8 +18,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/toutiao/alg/PileGame2.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="181">
-              <caret line="72" column="31" lean-forward="true" selection-start-line="72" selection-start-column="31" selection-end-line="72" selection-end-column="31" />
+            <state relative-caret-position="319">
+              <caret line="72" column="31" selection-start-line="72" selection-start-column="31" selection-end-line="72" selection-end-column="31" />
               <folding>
                 <element signature="e#1027#1028#0" expanded="true" />
               </folding>
@@ -29,11 +27,29 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/toutiao/alg/PileGame2Test.java">
           <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="297">
+              <caret line="26" selection-start-line="26" selection-end-line="26" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/toutiao/alg/KMP.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="20">
+              <caret line="5" column="12" lean-forward="true" selection-start-line="5" selection-start-column="12" selection-end-line="5" selection-end-column="12" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/toutiao/alg/KMPTest.java">
+          <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="397">
-              <caret line="26" column="4" selection-start-line="26" selection-start-column="4" selection-end-line="26" selection-end-column="4" />
+              <caret line="23" column="4" selection-start-line="23" selection-start-column="4" selection-end-line="23" selection-end-column="4" />
             </state>
           </provider>
         </entry>
@@ -93,8 +109,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/org/springframework/web/servlet/config/annotation/MyDelegatingWebMvcConfiguration.java" />
-        <option value="$PROJECT_DIR$/src/main/java/toutiao/config/ServiceConfig.java" />
         <option value="$PROJECT_DIR$/src/main/resources/dao/jdbc.properties" />
         <option value="$PROJECT_DIR$/src/main/resources/dao/mybatis_spring.xml" />
         <option value="$PROJECT_DIR$/src/main/resources/mapper/ArticleHomeMapper.xml" />
@@ -144,6 +158,8 @@
         <option value="$PROJECT_DIR$/src/main/java/toutiao/alg/PileGame.java" />
         <option value="$PROJECT_DIR$/src/main/java/toutiao/alg/PileGame2.java" />
         <option value="$PROJECT_DIR$/src/test/java/toutiao/alg/PileGame2Test.java" />
+        <option value="$PROJECT_DIR$/src/main/java/toutiao/alg/KMP.java" />
+        <option value="$PROJECT_DIR$/src/test/java/toutiao/alg/KMPTest.java" />
       </list>
     </option>
   </component>
@@ -381,7 +397,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1613363640907" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1613450132914" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -429,7 +445,23 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.PileGame2Test.sumScores">
+  <component name="RunManager" selected="JUnit.KMPTest.next">
+    <configuration name="KMPTest.next" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="heima_toutiao" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="toutiao.alg.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="toutiao.alg" />
+      <option name="MAIN_CLASS_NAME" value="toutiao.alg.KMPTest" />
+      <option name="METHOD_NAME" value="next" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="PileGame2Test.sumScores" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="heima_toutiao" />
       <extension name="coverage">
@@ -494,22 +526,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TraceDemoTest.traceB" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="heima_toutiao" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="toutiao.zipkin.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="toutiao.zipkin" />
-      <option name="MAIN_CLASS_NAME" value="toutiao.zipkin.TraceDemoTest" />
-      <option name="METHOD_NAME" value="traceB" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="heima_toutiao_debug" type="MavenRunConfiguration" factoryName="Maven">
       <MavenSettings>
         <option name="myGeneralSettings" />
@@ -540,20 +556,20 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="JUnit.TraceDemoTest.traceB" />
       <item itemvalue="JUnit.TraceDemoTest.subTrace" />
       <item itemvalue="JUnit.SpringWebTraceDemoTest.httpTrace" />
       <item itemvalue="Maven.heima_toutiao_debug" />
       <item itemvalue="JUnit.PileGameTest.gameResult" />
       <item itemvalue="JUnit.PileGame2Test.sumScores" />
+      <item itemvalue="JUnit.KMPTest.next" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.KMPTest.next" />
         <item itemvalue="JUnit.PileGame2Test.sumScores" />
         <item itemvalue="JUnit.PileGameTest.gameResult" />
         <item itemvalue="JUnit.SpringWebTraceDemoTest.httpTrace" />
         <item itemvalue="JUnit.TraceDemoTest.subTrace" />
-        <item itemvalue="JUnit.TraceDemoTest.traceB" />
       </list>
     </recent_temporary>
   </component>
@@ -587,23 +603,11 @@
       <workItem from="1612718394879" duration="626000" />
       <workItem from="1612751836110" duration="38908000" />
       <workItem from="1613208536302" duration="227000" />
-      <workItem from="1613209123696" duration="31548000" />
+      <workItem from="1613209123696" duration="36400000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="PileGame2Test_sumScores - 2021.02.15 at 11h 09m 04s.xml">
-      <configuration name="PileGame2Test.sumScores" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="PileGame2Test_sumScores - 2021.02.15 at 11h 20m 01s.xml">
-      <configuration name="PileGame2Test.sumScores" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="PileGameTest_gameResult - 2021.02.15 at 11h 25m 10s.xml">
-      <configuration name="PileGameTest.gameResult" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="PileGameTest_gameResult - 2021.02.15 at 11h 25m 44s.xml">
-      <configuration name="PileGameTest.gameResult" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="PileGame2Test_sumScores - 2021.02.15 at 11h 32m 44s.xml">
       <configuration name="PileGame2Test.sumScores" configurationId="JUnit" />
     </history-entry>
@@ -622,9 +626,21 @@
     <history-entry file="PileGame2Test_sumScores - 2021.02.15 at 12h 16m 58s.xml">
       <configuration name="PileGame2Test.sumScores" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="KMPTest_next - 2021.02.16 at 11h 52m 57s.xml">
+      <configuration name="KMPTest.next" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="KMPTest_next - 2021.02.16 at 11h 53m 25s.xml">
+      <configuration name="KMPTest.next" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="KMPTest_next - 2021.02.16 at 11h 57m 34s.xml">
+      <configuration name="KMPTest.next" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="KMPTest_next - 2021.02.16 at 12h 34m 40s.xml">
+      <configuration name="KMPTest.next" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="161566000" />
+    <option name="totallyTimeSpent" value="166418000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="810" extended-state="6" />
@@ -642,7 +658,7 @@
       <window_info anchor="bottom" id="Spring" order="1" />
       <window_info anchor="bottom" id="Docker" order="2" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="3" sideWeight="0.5007153" side_tool="true" weight="0.24930362" />
-      <window_info anchor="bottom" id="Terminal" order="4" weight="0.30640668" />
+      <window_info anchor="bottom" id="Terminal" order="4" weight="0.11559889" />
       <window_info anchor="bottom" id="Java Enterprise" order="5" weight="0.3290735" />
       <window_info anchor="bottom" id="Database Changes" order="6" />
       <window_info anchor="bottom" id="Version Control" order="7" />
@@ -1036,20 +1052,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/toutiao/filter/MyCorsFilter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="515">
-          <caret line="75" lean-forward="true" selection-start-line="75" selection-end-line="75" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/4.3.8.RELEASE/spring-web-4.3.8.RELEASE-sources.jar!/org/springframework/http/HttpEntity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="880">
-          <caret line="55" column="13" selection-start-line="55" selection-start-column="13" selection-end-line="55" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/4.3.8.RELEASE/spring-web-4.3.8.RELEASE-sources.jar!/org/springframework/web/client/AsyncRestOperations.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="199">
@@ -1414,8 +1416,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/toutiao/alg/PileGame2.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="181">
-          <caret line="72" column="31" lean-forward="true" selection-start-line="72" selection-start-column="31" selection-end-line="72" selection-end-column="31" />
+        <state relative-caret-position="319">
+          <caret line="72" column="31" selection-start-line="72" selection-start-column="31" selection-end-line="72" selection-end-column="31" />
           <folding>
             <element signature="e#1027#1028#0" expanded="true" />
           </folding>
@@ -1424,8 +1426,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/toutiao/alg/PileGame2Test.java">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="26" selection-start-line="26" selection-end-line="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/toutiao/alg/KMP.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="20">
+          <caret line="5" column="12" lean-forward="true" selection-start-line="5" selection-start-column="12" selection-end-line="5" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/toutiao/alg/KMPTest.java">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="397">
-          <caret line="26" column="4" selection-start-line="26" selection-start-column="4" selection-end-line="26" selection-end-column="4" />
+          <caret line="23" column="4" selection-start-line="23" selection-start-column="4" selection-end-line="23" selection-end-column="4" />
         </state>
       </provider>
     </entry>
