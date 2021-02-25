@@ -19,7 +19,14 @@ public class KMPTest {
         int matchIndex = KMP.matchIndex(s, pattern, next);
         log.info("matchIndex={};",matchIndex);
 
+
+        int[] nextB = KMP.nextB(pattern);
+        int matchIndexB = KMP.matchIndexB(s, pattern, nextB);
+        log.info("nextB={};matchIndexB={};",nextB,matchIndexB);
+
     }
+
+
 
 
 }
