@@ -59,7 +59,7 @@
           <element id="library" level="project" name="Maven: org.springframework:spring-websocket:4.3.8.RELEASE" />
           <element id="library" level="project" name="Maven: org.springframework:spring-messaging:4.3.8.RELEASE" />
           <element id="library" level="project" name="Maven: cglib:cglib:3.2.5" />
-          <element id="library" level="project" name="Maven: org.ow2.asm:asm:5.2" />
+          <element id="library" level="project" name="Maven: org.ow2.asm:asm:6.0_ALPHA" />
           <element id="library" level="project" name="Maven: org.apache.ant:ant:1.9.6" />
           <element id="library" level="project" name="Maven: org.apache.ant:ant-launcher:1.9.6" />
           <element id="library" level="project" name="Maven: org.springframework.batch:spring-batch-core:4.1.2.RELEASE" />
